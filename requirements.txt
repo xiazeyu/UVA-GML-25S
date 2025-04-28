@@ -1,3 +1,6 @@
 requests
 tqdm
 torch_geometric
+huggingface_hub[hf_xet]
+sentence-transformers
+pyarrow

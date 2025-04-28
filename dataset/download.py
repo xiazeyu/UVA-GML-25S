@@ -1,10 +1,5 @@
 """
-https://snap.stanford.edu/data/amazon0302.html
-https://snap.stanford.edu/data/amazon0312.html
-https://snap.stanford.edu/data/amazon0505.html
-https://snap.stanford.edu/data/amazon0601.html
 https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html
-https://snap.stanford.edu/data/amazon-meta.html
 """
 
 import requests
@@ -47,28 +42,16 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     urls = [
-        "https://snap.stanford.edu/data/amazon0302.txt.gz",
-        "https://snap.stanford.edu/data/amazon0312.txt.gz",
-        "https://snap.stanford.edu/data/amazon0505.txt.gz",
-        "https://snap.stanford.edu/data/amazon0601.txt.gz",
-        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Books_5.json.gz",
-        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Electronics_5.json.gz",
-        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Movies_and_TV_5.json.gz",
-        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_CDs_and_Vinyl_5.json.gz",
-        "https://snap.stanford.edu/data/bigdata/amazon/amazon-meta.txt.gz"
+        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Digital_Music_5.json.gz",
+        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Video_Games_5.json.gz",
+        "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Pet_Supplies_5.json.gz",
+        "https://snap.stanford.edu/data/amazon/productGraph/metadata.json.gz",
     ]
 
     for url in urls:
         filename = url.split("/")[-1]
         destination = os.path.join(script_dir, filename)
         download_file(url, destination)
-        
-        # Decompress the file
-        if filename.endswith('.gz'):
-            decompressed_filename = filename[:-3]  # Remove .gz extension
-            decompressed_destination = os.path.join(script_dir, decompressed_filename)
-            decompress_file(destination, decompressed_destination)
-            os.remove(destination)  # Remove the compressed file if decompression is successful
 
 if __name__ == "__main__":
     main()
