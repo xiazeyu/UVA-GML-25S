@@ -7,4 +7,4 @@
 - run `python process_edgedata.py`
 - run `python process_nodedata.py`
 - run `python process_graph.py`
-
+- run `python main.py`
