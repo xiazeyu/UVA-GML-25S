@@ -7,7 +7,7 @@
 - 5. run `python process_reviews.py Pet_Supplies`
 - 6. run `python process_edgedata.py`
 - 7. run `python process_nodedata.py`
-- 8. run `python process_graph.py` (can also try `python process_graph_no_review.py` or `python process_graph_no_embed.py`)
-- 9. run `python main.py`
+- 8. run `python process_graph.py` (can also try `python process_graph_no_review.py` or `python process_graph_no_llm.py`)
+- 9. run `python main.py --data_path dataset/processed_graph_data.pt` (or `python main.py --data_path dataset/processed_graph_data_no_review.pt`)
 
 Running logs will be stored in `logs/`

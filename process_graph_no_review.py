@@ -77,7 +77,7 @@ def load_node(review_features, node_review_embeddings): # Pass loaded data as ar
     
     # Ensure 'categories' column exists and process it
     if 'categories' in df.columns:
-        df['categories'] = df['categories'].apply(lambda x: '|'.join(x[0]) if isinstance(x, (np.ndarray, list)) and len(x) > 0 and isinstance(x[0], (list, tuple)) else '')
+        df['categories'] = df['categories'].apply(lambda x: '|'.join(x[0]))
     else:
         df['categories'] = '' # Add empty column if it doesn't exist
 

@@ -1,0 +1,24 @@
+pip install -r requirements.txt > logs/1.log
+python dataset/download.py > logs/2.log
+python process_reviews.py Digital_Music > logs/3.log
+python process_reviews.py Video_Games > logs/4.log
+python process_reviews.py Pet_Supplies > logs/5.log
+python process_edgedata.py > logs/6.log
+python process_nodedata.py > logs/7.log
+python process_graph.py > logs/8.log
+python process_graph_no_review.py > logs/8.1.log
+python process_graph_no_llm.py > logs/8.2.log
+python process_graph_nothing.py > logs/8.3.log
+python main.py --data_path dataset/processed_graph_data_no_llm.pt > logs/9.0.0.log
+python main.py --data_path dataset/processed_graph_data_no_llm.pt > logs/9.0.1.log
+python main.py --data_path dataset/processed_graph_data_no_llm.pt > logs/9.0.2.log
+python main.py --data_path dataset/processed_graph_data_no_review.pt > logs/9.1.0.log
+python main.py --data_path dataset/processed_graph_data_no_review.pt > logs/9.1.1.log
+python main.py --data_path dataset/processed_graph_data_no_review.pt > logs/9.1.2.log
+python main.py --data_path dataset/processed_graph_data.pt > logs/9.2.0.log
+python main.py --data_path dataset/processed_graph_data.pt > logs/9.2.1.log
+python main.py --data_path dataset/processed_graph_data.pt > logs/9.2.2.log
+python main.py --data_path dataset/processed_graph_data_nothing.pt > logs/9.3.0.log
+python main.py --data_path dataset/processed_graph_data_nothing.pt > logs/9.3.0.log
+python main.py --data_path dataset/processed_graph_data_nothing.pt > logs/9.3.0.log
+python main_sgcn.py > logs/10.log

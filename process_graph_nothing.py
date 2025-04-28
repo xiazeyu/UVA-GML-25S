@@ -55,30 +55,10 @@ print(f"Loaded edges for {len(edges)} source ASINs.")
 
 print("Loading review features...")
 review_features = {}
-try:
-    review_features |= torch.load('dataset/Digital_Music_features.pt')
-    review_features |= torch.load('dataset/Pet_Supplies_features.pt')
-    review_features |= torch.load('dataset/Video_Games_features.pt')
-    print(f"Loaded review features for {len(review_features)} ASINs.")
-except FileNotFoundError as e:
-    print(f"Error loading review features: {e}. Ensure the .pt files exist.")
-    # Decide how to handle this: exit, continue without these features, etc.
-    # For now, let's create an empty dict if files are missing
-    review_features = {}
 
 
 print("Loading node review embeddings...")
 node_review_embeddings = {}
-try:
-    node_review_embeddings |= torch.load('dataset/Digital_Music_embeddings.pt')
-    node_review_embeddings |= torch.load('dataset/Pet_Supplies_embeddings.pt')
-    node_review_embeddings |= torch.load('dataset/Video_Games_embeddings.pt')
-    print(f"Loaded node review embeddings for {len(node_review_embeddings)} ASINs.")
-except FileNotFoundError as e:
-    print(f"Error loading node review embeddings: {e}. Ensure the .pt files exist.")
-    # Decide how to handle this: exit, continue without these features, etc.
-    # For now, let's create an empty dict if files are missing
-    node_review_embeddings = {}
 
 
 # --- Define load_node function ---
@@ -131,12 +111,12 @@ def load_node(review_features, node_review_embeddings): # Pass loaded data as ar
 
     # Check if necessary columns exist before initializing encoders
     encoders = {}
-    if 'title' in df.columns:
-        encoders['title'] = SequenceEncoder(device=device)
-    if 'brand' in df.columns:
-         encoders['brand'] = SequenceEncoder(device=device) # Reusing the same type of encoder
-    if 'categories' in df.columns:
-         encoders['categories'] = GenresEncoder()
+    # if 'title' in df.columns:
+    #     encoders['title'] = SequenceEncoder(device=device)
+    # if 'brand' in df.columns:
+    #      encoders['brand'] = SequenceEncoder(device=device) # Reusing the same type of encoder
+    # if 'categories' in df.columns:
+    #      encoders['categories'] = GenresEncoder()
 
     xs = []
     # Process features only if the column and encoder exist
@@ -159,8 +139,8 @@ def load_node(review_features, node_review_embeddings): # Pass loaded data as ar
 
     # --- Integrate Review Embeddings and Features ---
     # Check if the dictionaries are populated
-    has_node_embeddings = bool(node_review_embeddings)
-    has_review_features = bool(review_features)
+    has_node_embeddings = False
+    has_review_features = False
 
     # Prepare tensors for embeddings and features, handling missing ASINs
     default_embedding_dim = 768 # Example dimension, adjust if known
@@ -294,5 +274,5 @@ print(data)
 
 # You can optionally save the data object
 print("\nSaving Data object...")
-torch.save(data, 'dataset/processed_graph_data.pt')
+torch.save(data, 'dataset/processed_graph_data_nothing.pt')
 print("Data object saved.")

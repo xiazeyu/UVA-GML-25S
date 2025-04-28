@@ -1,0 +1,50 @@
+Loading required ASINs...
+  Loaded 3568 ASINs from Digital_Music.
+  Loaded 10672 ASINs from Video_Games.
+  Loaded 8510 ASINs from Pet_Supplies.
+Total unique required ASINs loaded: 22750
+
+Starting DataFrame construction from: dataset/metadata.json.gz
+Filtering for 22750 required ASINs.
+
+DataFrame construction complete. DataFrame has 22750 rows.
+
+DataFrame created successfully with 22750 rows and 6 columns.
+
+DataFrame Head:
+         asin  ...                                         categories
+0  0700099867  ...                         [[Video Games, PC, Games]]
+1  1223000893  ...                       [[Pet Supplies, Cats, Toys]]
+2  4847676011  ...  [[Pet Supplies, Dogs, Health Supplies, Dental ...
+3  5555991584  ...  [[CDs & Vinyl, New Age, Celtic New Age], [CDs ...
+4  6050036071  ...  [[Video Games, PlayStation 3, Accessories, Con...
+
+[5 rows x 6 columns]
+
+DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22750 entries, 0 to 22749
+Data columns (total 6 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   asin        22750 non-null  object 
+ 1   title       11445 non-null  object 
+ 2   price       22000 non-null  float64
+ 3   salesRank   22750 non-null  object 
+ 4   brand       7913 non-null   object 
+ 5   categories  22750 non-null  object 
+dtypes: float64(1), object(5)
+memory usage: 1.0+ MB
+
+Data for ASIN 'B000034DMT':
+asin                                                 B000034DMT
+title                                                      None
+price                                                     32.99
+salesRank                                 {'Video Games': 7091}
+brand                                                      None
+categories    [[Video Games, More Systems, PlayStation, Game...
+Name: 2187, dtype: object
+
+Attempting to save DataFrame to Parquet file: dataset/metadata_node.parquet
+Directory 'dataset' ensured.
+DataFrame successfully saved to dataset/metadata_node.parquet

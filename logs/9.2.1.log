@@ -1,0 +1,1651 @@
+Using device: cuda
+TensorBoard logs will be saved in: runs/Apr28_03-18-39_udc-aj36-36
+Loading preprocessed data from specified path: dataset/processed_graph_data.pt
+
+--- Data Splits ---
+Train Data: Data(x=[22750, 2977], edge_index=[2, 1144308], edge_label=[572154], edge_label_index=[2, 572154])
+Validation Data: Data(x=[22750, 2977], edge_index=[2, 1144308], edge_label=[67312], edge_label_index=[2, 67312])
+Test Data: Data(x=[22750, 2977], edge_index=[2, 1211620], edge_label=[134624], edge_label_index=[2, 134624])
+--------------------
+
+--- Starting Training ---
+
+Epoch 001: New best validation AUC: 0.7828
+Epoch: 001, Loss: 0.6931, Val AUC: 0.7828, Test AUC: 0.7829
+Epoch: 010, Loss: 0.6933, Val AUC: 0.7680, Test AUC: 0.7702
+Epoch: 020, Loss: 0.6796, Val AUC: 0.7796, Test AUC: 0.7808
+Epoch: 030, Loss: 0.6576, Val AUC: 0.7767, Test AUC: 0.7780
+Epoch: 040, Loss: 0.6442, Val AUC: 0.7682, Test AUC: 0.7694
+Epoch: 050, Loss: 0.6389, Val AUC: 0.7581, Test AUC: 0.7588
+Epoch: 060, Loss: 0.6359, Val AUC: 0.7578, Test AUC: 0.7581
+Epoch: 070, Loss: 0.6314, Val AUC: 0.7619, Test AUC: 0.7621
+Epoch: 080, Loss: 0.6272, Val AUC: 0.7653, Test AUC: 0.7654
+Epoch: 090, Loss: 0.6233, Val AUC: 0.7652, Test AUC: 0.7649
+Epoch: 100, Loss: 0.6191, Val AUC: 0.7622, Test AUC: 0.7616
+Epoch: 110, Loss: 0.6166, Val AUC: 0.7592, Test AUC: 0.7587
+Epoch: 120, Loss: 0.6140, Val AUC: 0.7598, Test AUC: 0.7593
+Epoch: 130, Loss: 0.6123, Val AUC: 0.7613, Test AUC: 0.7608
+Epoch: 140, Loss: 0.6102, Val AUC: 0.7695, Test AUC: 0.7691
+Epoch: 150, Loss: 0.6089, Val AUC: 0.7707, Test AUC: 0.7703
+Epoch: 160, Loss: 0.6075, Val AUC: 0.7701, Test AUC: 0.7698
+Epoch: 170, Loss: 0.6065, Val AUC: 0.7715, Test AUC: 0.7713
+Epoch: 180, Loss: 0.6059, Val AUC: 0.7704, Test AUC: 0.7704
+Epoch: 190, Loss: 0.6050, Val AUC: 0.7720, Test AUC: 0.7720
+Epoch: 200, Loss: 0.6046, Val AUC: 0.7719, Test AUC: 0.7720
+Epoch: 210, Loss: 0.6034, Val AUC: 0.7720, Test AUC: 0.7721
+Epoch: 220, Loss: 0.6025, Val AUC: 0.7733, Test AUC: 0.7734
+Epoch: 230, Loss: 0.6015, Val AUC: 0.7751, Test AUC: 0.7752
+Epoch: 240, Loss: 0.5999, Val AUC: 0.7766, Test AUC: 0.7768
+Epoch: 250, Loss: 0.5993, Val AUC: 0.7784, Test AUC: 0.7785
+Epoch: 260, Loss: 0.5986, Val AUC: 0.7794, Test AUC: 0.7796
+Epoch: 270, Loss: 0.5975, Val AUC: 0.7812, Test AUC: 0.7815
+Epoch: 280, Loss: 0.5962, Val AUC: 0.7822, Test AUC: 0.7826
+
+Epoch 290: New best validation AUC: 0.7830
+Epoch: 290, Loss: 0.5953, Val AUC: 0.7830, Test AUC: 0.7835
+
+Epoch 293: New best validation AUC: 0.7845
+
+Epoch 295: New best validation AUC: 0.7849
+
+Epoch 300: New best validation AUC: 0.7854
+Epoch: 300, Loss: 0.5938, Val AUC: 0.7854, Test AUC: 0.7860
+
+Epoch 302: New best validation AUC: 0.7866
+
+Epoch 304: New best validation AUC: 0.7876
+
+Epoch 309: New best validation AUC: 0.7877
+Epoch: 310, Loss: 0.5936, Val AUC: 0.7846, Test AUC: 0.7854
+
+Epoch 311: New best validation AUC: 0.7885
+
+Epoch 314: New best validation AUC: 0.7886
+
+Epoch 316: New best validation AUC: 0.7901
+Epoch: 320, Loss: 0.5917, Val AUC: 0.7881, Test AUC: 0.7890
+
+Epoch 321: New best validation AUC: 0.7901
+
+Epoch 323: New best validation AUC: 0.7904
+
+Epoch 326: New best validation AUC: 0.7908
+
+Epoch 328: New best validation AUC: 0.7924
+Epoch: 330, Loss: 0.5904, Val AUC: 0.7924, Test AUC: 0.7933
+
+Epoch 333: New best validation AUC: 0.7927
+
+Epoch 335: New best validation AUC: 0.7929
+
+Epoch 339: New best validation AUC: 0.7933
+Epoch: 340, Loss: 0.5887, Val AUC: 0.7932, Test AUC: 0.7942
+
+Epoch 341: New best validation AUC: 0.7938
+
+Epoch 343: New best validation AUC: 0.7953
+
+Epoch 345: New best validation AUC: 0.7968
+
+Epoch 347: New best validation AUC: 0.7972
+
+Epoch 350: New best validation AUC: 0.7981
+Epoch: 350, Loss: 0.5871, Val AUC: 0.7981, Test AUC: 0.7990
+
+Epoch 352: New best validation AUC: 0.7990
+
+Epoch 355: New best validation AUC: 0.7994
+
+Epoch 360: New best validation AUC: 0.8012
+Epoch: 360, Loss: 0.5857, Val AUC: 0.8012, Test AUC: 0.8023
+
+Epoch 363: New best validation AUC: 0.8017
+
+Epoch 365: New best validation AUC: 0.8020
+
+Epoch 368: New best validation AUC: 0.8032
+
+Epoch 369: New best validation AUC: 0.8032
+Epoch: 370, Loss: 0.5830, Val AUC: 0.8028, Test AUC: 0.8039
+
+Epoch 371: New best validation AUC: 0.8052
+
+Epoch 373: New best validation AUC: 0.8052
+
+Epoch 374: New best validation AUC: 0.8072
+
+Epoch 376: New best validation AUC: 0.8088
+
+Epoch 377: New best validation AUC: 0.8088
+
+Epoch 378: New best validation AUC: 0.8088
+
+Epoch 379: New best validation AUC: 0.8119
+Epoch: 380, Loss: 0.5780, Val AUC: 0.8111, Test AUC: 0.8121
+
+Epoch 381: New best validation AUC: 0.8129
+
+Epoch 382: New best validation AUC: 0.8155
+
+Epoch 384: New best validation AUC: 0.8185
+
+Epoch 385: New best validation AUC: 0.8198
+
+Epoch 386: New best validation AUC: 0.8205
+
+Epoch 387: New best validation AUC: 0.8245
+
+Epoch 388: New best validation AUC: 0.8257
+
+Epoch 389: New best validation AUC: 0.8282
+
+Epoch 390: New best validation AUC: 0.8318
+Epoch: 390, Loss: 0.5681, Val AUC: 0.8318, Test AUC: 0.8322
+
+Epoch 391: New best validation AUC: 0.8337
+
+Epoch 392: New best validation AUC: 0.8373
+
+Epoch 393: New best validation AUC: 0.8407
+
+Epoch 394: New best validation AUC: 0.8430
+
+Epoch 395: New best validation AUC: 0.8465
+
+Epoch 396: New best validation AUC: 0.8498
+
+Epoch 397: New best validation AUC: 0.8514
+
+Epoch 398: New best validation AUC: 0.8539
+
+Epoch 399: New best validation AUC: 0.8566
+
+Epoch 400: New best validation AUC: 0.8573
+Epoch: 400, Loss: 0.5476, Val AUC: 0.8573, Test AUC: 0.8574
+
+Epoch 401: New best validation AUC: 0.8577
+
+Epoch 402: New best validation AUC: 0.8595
+
+Epoch 403: New best validation AUC: 0.8605
+
+Epoch 406: New best validation AUC: 0.8612
+
+Epoch 407: New best validation AUC: 0.8616
+
+Epoch 410: New best validation AUC: 0.8630
+Epoch: 410, Loss: 0.5388, Val AUC: 0.8630, Test AUC: 0.8630
+
+Epoch 411: New best validation AUC: 0.8639
+
+Epoch 413: New best validation AUC: 0.8645
+
+Epoch 414: New best validation AUC: 0.8663
+
+Epoch 415: New best validation AUC: 0.8676
+
+Epoch 416: New best validation AUC: 0.8682
+
+Epoch 417: New best validation AUC: 0.8687
+
+Epoch 418: New best validation AUC: 0.8698
+
+Epoch 419: New best validation AUC: 0.8712
+
+Epoch 420: New best validation AUC: 0.8718
+Epoch: 420, Loss: 0.5335, Val AUC: 0.8718, Test AUC: 0.8719
+
+Epoch 421: New best validation AUC: 0.8719
+
+Epoch 422: New best validation AUC: 0.8727
+
+Epoch 423: New best validation AUC: 0.8736
+
+Epoch 424: New best validation AUC: 0.8737
+
+Epoch 426: New best validation AUC: 0.8741
+
+Epoch 427: New best validation AUC: 0.8744
+
+Epoch 428: New best validation AUC: 0.8745
+
+Epoch 430: New best validation AUC: 0.8746
+Epoch: 430, Loss: 0.5295, Val AUC: 0.8746, Test AUC: 0.8749
+
+Epoch 431: New best validation AUC: 0.8748
+
+Epoch 434: New best validation AUC: 0.8748
+
+Epoch 435: New best validation AUC: 0.8750
+
+Epoch 436: New best validation AUC: 0.8751
+
+Epoch 437: New best validation AUC: 0.8753
+
+Epoch 440: New best validation AUC: 0.8758
+Epoch: 440, Loss: 0.5277, Val AUC: 0.8758, Test AUC: 0.8760
+
+Epoch 441: New best validation AUC: 0.8763
+
+Epoch 442: New best validation AUC: 0.8764
+
+Epoch 444: New best validation AUC: 0.8769
+
+Epoch 445: New best validation AUC: 0.8775
+
+Epoch 446: New best validation AUC: 0.8776
+
+Epoch 447: New best validation AUC: 0.8779
+
+Epoch 448: New best validation AUC: 0.8782
+
+Epoch 449: New best validation AUC: 0.8785
+
+Epoch 450: New best validation AUC: 0.8789
+Epoch: 450, Loss: 0.5246, Val AUC: 0.8789, Test AUC: 0.8793
+
+Epoch 452: New best validation AUC: 0.8791
+
+Epoch 453: New best validation AUC: 0.8797
+
+Epoch 454: New best validation AUC: 0.8800
+
+Epoch 457: New best validation AUC: 0.8806
+
+Epoch 460: New best validation AUC: 0.8810
+Epoch: 460, Loss: 0.5224, Val AUC: 0.8810, Test AUC: 0.8813
+
+Epoch 461: New best validation AUC: 0.8812
+
+Epoch 463: New best validation AUC: 0.8817
+
+Epoch 464: New best validation AUC: 0.8821
+
+Epoch 466: New best validation AUC: 0.8823
+
+Epoch 467: New best validation AUC: 0.8829
+
+Epoch 468: New best validation AUC: 0.8833
+
+Epoch 470: New best validation AUC: 0.8837
+Epoch: 470, Loss: 0.5195, Val AUC: 0.8837, Test AUC: 0.8840
+
+Epoch 471: New best validation AUC: 0.8840
+
+Epoch 472: New best validation AUC: 0.8842
+
+Epoch 473: New best validation AUC: 0.8845
+
+Epoch 474: New best validation AUC: 0.8849
+
+Epoch 476: New best validation AUC: 0.8856
+
+Epoch 477: New best validation AUC: 0.8859
+
+Epoch 479: New best validation AUC: 0.8865
+
+Epoch 480: New best validation AUC: 0.8870
+Epoch: 480, Loss: 0.5177, Val AUC: 0.8870, Test AUC: 0.8873
+
+Epoch 482: New best validation AUC: 0.8873
+
+Epoch 483: New best validation AUC: 0.8879
+
+Epoch 485: New best validation AUC: 0.8881
+
+Epoch 486: New best validation AUC: 0.8889
+
+Epoch 488: New best validation AUC: 0.8891
+
+Epoch 489: New best validation AUC: 0.8899
+Epoch: 490, Loss: 0.5155, Val AUC: 0.8895, Test AUC: 0.8898
+
+Epoch 491: New best validation AUC: 0.8902
+
+Epoch 492: New best validation AUC: 0.8904
+
+Epoch 493: New best validation AUC: 0.8905
+
+Epoch 494: New best validation AUC: 0.8913
+
+Epoch 495: New best validation AUC: 0.8914
+
+Epoch 496: New best validation AUC: 0.8915
+
+Epoch 497: New best validation AUC: 0.8922
+
+Epoch 498: New best validation AUC: 0.8926
+
+Epoch 500: New best validation AUC: 0.8932
+Epoch: 500, Loss: 0.5119, Val AUC: 0.8932, Test AUC: 0.8933
+
+Epoch 501: New best validation AUC: 0.8935
+
+Epoch 502: New best validation AUC: 0.8936
+
+Epoch 503: New best validation AUC: 0.8939
+
+Epoch 504: New best validation AUC: 0.8944
+
+Epoch 505: New best validation AUC: 0.8945
+
+Epoch 506: New best validation AUC: 0.8949
+
+Epoch 507: New best validation AUC: 0.8950
+
+Epoch 508: New best validation AUC: 0.8960
+
+Epoch 510: New best validation AUC: 0.8962
+Epoch: 510, Loss: 0.5117, Val AUC: 0.8962, Test AUC: 0.8962
+
+Epoch 511: New best validation AUC: 0.8969
+
+Epoch 513: New best validation AUC: 0.8974
+
+Epoch 515: New best validation AUC: 0.8983
+
+Epoch 517: New best validation AUC: 0.8988
+
+Epoch 520: New best validation AUC: 0.8994
+Epoch: 520, Loss: 0.5085, Val AUC: 0.8994, Test AUC: 0.8992
+
+Epoch 522: New best validation AUC: 0.9001
+
+Epoch 525: New best validation AUC: 0.9008
+
+Epoch 527: New best validation AUC: 0.9010
+
+Epoch 529: New best validation AUC: 0.9012
+
+Epoch 530: New best validation AUC: 0.9018
+Epoch: 530, Loss: 0.5067, Val AUC: 0.9018, Test AUC: 0.9014
+
+Epoch 532: New best validation AUC: 0.9022
+
+Epoch 534: New best validation AUC: 0.9022
+
+Epoch 535: New best validation AUC: 0.9026
+
+Epoch 537: New best validation AUC: 0.9033
+
+Epoch 539: New best validation AUC: 0.9034
+
+Epoch 540: New best validation AUC: 0.9034
+Epoch: 540, Loss: 0.5063, Val AUC: 0.9034, Test AUC: 0.9031
+
+Epoch 542: New best validation AUC: 0.9040
+
+Epoch 544: New best validation AUC: 0.9044
+
+Epoch 546: New best validation AUC: 0.9047
+
+Epoch 548: New best validation AUC: 0.9047
+
+Epoch 549: New best validation AUC: 0.9052
+Epoch: 550, Loss: 0.5034, Val AUC: 0.9049, Test AUC: 0.9046
+
+Epoch 551: New best validation AUC: 0.9055
+
+Epoch 553: New best validation AUC: 0.9058
+
+Epoch 554: New best validation AUC: 0.9059
+
+Epoch 555: New best validation AUC: 0.9059
+
+Epoch 556: New best validation AUC: 0.9065
+
+Epoch 558: New best validation AUC: 0.9070
+
+Epoch 560: New best validation AUC: 0.9073
+Epoch: 560, Loss: 0.5031, Val AUC: 0.9073, Test AUC: 0.9067
+
+Epoch 562: New best validation AUC: 0.9076
+
+Epoch 564: New best validation AUC: 0.9080
+
+Epoch 566: New best validation AUC: 0.9082
+
+Epoch 568: New best validation AUC: 0.9086
+
+Epoch 570: New best validation AUC: 0.9090
+Epoch: 570, Loss: 0.5011, Val AUC: 0.9090, Test AUC: 0.9084
+
+Epoch 572: New best validation AUC: 0.9092
+
+Epoch 574: New best validation AUC: 0.9095
+
+Epoch 576: New best validation AUC: 0.9099
+
+Epoch 577: New best validation AUC: 0.9100
+
+Epoch 579: New best validation AUC: 0.9104
+Epoch: 580, Loss: 0.5011, Val AUC: 0.9090, Test AUC: 0.9086
+
+Epoch 581: New best validation AUC: 0.9107
+
+Epoch 584: New best validation AUC: 0.9111
+
+Epoch 586: New best validation AUC: 0.9114
+
+Epoch 589: New best validation AUC: 0.9119
+Epoch: 590, Loss: 0.4996, Val AUC: 0.9109, Test AUC: 0.9105
+
+Epoch 591: New best validation AUC: 0.9121
+
+Epoch 592: New best validation AUC: 0.9121
+
+Epoch 593: New best validation AUC: 0.9121
+
+Epoch 594: New best validation AUC: 0.9124
+
+Epoch 595: New best validation AUC: 0.9124
+
+Epoch 596: New best validation AUC: 0.9127
+
+Epoch 597: New best validation AUC: 0.9127
+
+Epoch 598: New best validation AUC: 0.9128
+
+Epoch 599: New best validation AUC: 0.9132
+Epoch: 600, Loss: 0.4979, Val AUC: 0.9129, Test AUC: 0.9125
+
+Epoch 601: New best validation AUC: 0.9136
+
+Epoch 603: New best validation AUC: 0.9140
+
+Epoch 605: New best validation AUC: 0.9143
+
+Epoch 607: New best validation AUC: 0.9147
+
+Epoch 609: New best validation AUC: 0.9149
+Epoch: 610, Loss: 0.4959, Val AUC: 0.9145, Test AUC: 0.9141
+
+Epoch 611: New best validation AUC: 0.9150
+
+Epoch 612: New best validation AUC: 0.9154
+
+Epoch 614: New best validation AUC: 0.9158
+
+Epoch 616: New best validation AUC: 0.9162
+Epoch: 620, Loss: 0.4947, Val AUC: 0.9162, Test AUC: 0.9159
+
+Epoch 621: New best validation AUC: 0.9165
+
+Epoch 623: New best validation AUC: 0.9169
+
+Epoch 625: New best validation AUC: 0.9170
+
+Epoch 627: New best validation AUC: 0.9174
+
+Epoch 630: New best validation AUC: 0.9177
+Epoch: 630, Loss: 0.4938, Val AUC: 0.9177, Test AUC: 0.9174
+
+Epoch 632: New best validation AUC: 0.9180
+
+Epoch 638: New best validation AUC: 0.9184
+
+Epoch 639: New best validation AUC: 0.9185
+Epoch: 640, Loss: 0.4946, Val AUC: 0.9153, Test AUC: 0.9153
+
+Epoch 647: New best validation AUC: 0.9187
+
+Epoch 649: New best validation AUC: 0.9190
+
+Epoch 650: New best validation AUC: 0.9190
+Epoch: 650, Loss: 0.4933, Val AUC: 0.9190, Test AUC: 0.9187
+
+Epoch 655: New best validation AUC: 0.9192
+
+Epoch 658: New best validation AUC: 0.9192
+Epoch: 660, Loss: 0.4931, Val AUC: 0.9182, Test AUC: 0.9180
+
+Epoch 661: New best validation AUC: 0.9192
+
+Epoch 664: New best validation AUC: 0.9194
+
+Epoch 667: New best validation AUC: 0.9195
+
+Epoch 670: New best validation AUC: 0.9195
+Epoch: 670, Loss: 0.4926, Val AUC: 0.9195, Test AUC: 0.9191
+
+Epoch 673: New best validation AUC: 0.9196
+
+Epoch 675: New best validation AUC: 0.9197
+
+Epoch 678: New best validation AUC: 0.9198
+Epoch: 680, Loss: 0.4928, Val AUC: 0.9189, Test AUC: 0.9187
+
+Epoch 681: New best validation AUC: 0.9198
+
+Epoch 684: New best validation AUC: 0.9199
+
+Epoch 687: New best validation AUC: 0.9199
+
+Epoch 689: New best validation AUC: 0.9199
+Epoch: 690, Loss: 0.4921, Val AUC: 0.9197, Test AUC: 0.9194
+
+Epoch 692: New best validation AUC: 0.9201
+Epoch: 700, Loss: 0.4926, Val AUC: 0.9201, Test AUC: 0.9198
+
+Epoch 707: New best validation AUC: 0.9202
+
+Epoch 710: New best validation AUC: 0.9202
+Epoch: 710, Loss: 0.4923, Val AUC: 0.9202, Test AUC: 0.9200
+
+Epoch 712: New best validation AUC: 0.9203
+
+Epoch 715: New best validation AUC: 0.9205
+
+Epoch 720: New best validation AUC: 0.9207
+Epoch: 720, Loss: 0.4925, Val AUC: 0.9207, Test AUC: 0.9203
+
+Epoch 725: New best validation AUC: 0.9207
+
+Epoch 727: New best validation AUC: 0.9207
+
+Epoch 730: New best validation AUC: 0.9208
+Epoch: 730, Loss: 0.4927, Val AUC: 0.9208, Test AUC: 0.9204
+
+Epoch 732: New best validation AUC: 0.9208
+
+Epoch 737: New best validation AUC: 0.9210
+Epoch: 740, Loss: 0.4914, Val AUC: 0.9207, Test AUC: 0.9204
+
+Epoch 743: New best validation AUC: 0.9210
+
+Epoch 745: New best validation AUC: 0.9212
+
+Epoch 749: New best validation AUC: 0.9212
+Epoch: 750, Loss: 0.4917, Val AUC: 0.9206, Test AUC: 0.9204
+
+Epoch 751: New best validation AUC: 0.9212
+
+Epoch 754: New best validation AUC: 0.9212
+
+Epoch 756: New best validation AUC: 0.9213
+
+Epoch 759: New best validation AUC: 0.9214
+Epoch: 760, Loss: 0.4920, Val AUC: 0.9205, Test AUC: 0.9204
+
+Epoch 765: New best validation AUC: 0.9215
+
+Epoch 768: New best validation AUC: 0.9215
+Epoch: 770, Loss: 0.4913, Val AUC: 0.9215, Test AUC: 0.9211
+
+Epoch 772: New best validation AUC: 0.9215
+
+Epoch 775: New best validation AUC: 0.9215
+
+Epoch 777: New best validation AUC: 0.9216
+
+Epoch 779: New best validation AUC: 0.9217
+Epoch: 780, Loss: 0.4912, Val AUC: 0.9209, Test AUC: 0.9208
+
+Epoch 784: New best validation AUC: 0.9217
+
+Epoch 789: New best validation AUC: 0.9218
+Epoch: 790, Loss: 0.4922, Val AUC: 0.9200, Test AUC: 0.9200
+
+Epoch 794: New best validation AUC: 0.9219
+Epoch: 800, Loss: 0.4910, Val AUC: 0.9210, Test AUC: 0.9209
+
+Epoch 803: New best validation AUC: 0.9220
+
+Epoch 808: New best validation AUC: 0.9220
+Epoch: 810, Loss: 0.4902, Val AUC: 0.9218, Test AUC: 0.9217
+
+Epoch 813: New best validation AUC: 0.9221
+Epoch: 820, Loss: 0.4911, Val AUC: 0.9221, Test AUC: 0.9219
+
+Epoch 825: New best validation AUC: 0.9222
+Epoch: 830, Loss: 0.4900, Val AUC: 0.9220, Test AUC: 0.9219
+
+Epoch 832: New best validation AUC: 0.9223
+
+Epoch 834: New best validation AUC: 0.9223
+Epoch: 840, Loss: 0.4908, Val AUC: 0.9220, Test AUC: 0.9219
+
+Epoch 845: New best validation AUC: 0.9223
+
+Epoch 847: New best validation AUC: 0.9224
+
+Epoch 849: New best validation AUC: 0.9224
+Epoch: 850, Loss: 0.4902, Val AUC: 0.9219, Test AUC: 0.9219
+
+Epoch 852: New best validation AUC: 0.9225
+
+Epoch 859: New best validation AUC: 0.9225
+Epoch: 860, Loss: 0.4904, Val AUC: 0.9212, Test AUC: 0.9212
+
+Epoch 861: New best validation AUC: 0.9225
+
+Epoch 866: New best validation AUC: 0.9226
+Epoch: 870, Loss: 0.4896, Val AUC: 0.9220, Test AUC: 0.9220
+
+Epoch 871: New best validation AUC: 0.9226
+Epoch: 880, Loss: 0.4899, Val AUC: 0.9225, Test AUC: 0.9224
+
+Epoch 889: New best validation AUC: 0.9227
+Epoch: 890, Loss: 0.4901, Val AUC: 0.9220, Test AUC: 0.9221
+
+Epoch 898: New best validation AUC: 0.9227
+Epoch: 900, Loss: 0.4903, Val AUC: 0.9224, Test AUC: 0.9224
+
+Epoch 903: New best validation AUC: 0.9227
+Epoch: 910, Loss: 0.4896, Val AUC: 0.9226, Test AUC: 0.9226
+Epoch: 920, Loss: 0.4897, Val AUC: 0.9227, Test AUC: 0.9226
+
+Epoch 922: New best validation AUC: 0.9228
+
+Epoch 926: New best validation AUC: 0.9228
+Epoch: 930, Loss: 0.4896, Val AUC: 0.9217, Test AUC: 0.9218
+Epoch: 940, Loss: 0.4899, Val AUC: 0.9228, Test AUC: 0.9227
+Epoch: 950, Loss: 0.4897, Val AUC: 0.9228, Test AUC: 0.9228
+
+Epoch 954: New best validation AUC: 0.9229
+
+Epoch 956: New best validation AUC: 0.9229
+
+Epoch 959: New best validation AUC: 0.9229
+Epoch: 960, Loss: 0.4892, Val AUC: 0.9220, Test AUC: 0.9221
+
+Epoch 968: New best validation AUC: 0.9230
+Epoch: 970, Loss: 0.4900, Val AUC: 0.9228, Test AUC: 0.9228
+
+Epoch 977: New best validation AUC: 0.9230
+Epoch: 980, Loss: 0.4897, Val AUC: 0.9223, Test AUC: 0.9224
+
+Epoch 986: New best validation AUC: 0.9230
+Epoch: 990, Loss: 0.4901, Val AUC: 0.9222, Test AUC: 0.9223
+
+Epoch 993: New best validation AUC: 0.9230
+Epoch: 1000, Loss: 0.4895, Val AUC: 0.9230, Test AUC: 0.9229
+
+Epoch 1005: New best validation AUC: 0.9231
+Epoch: 1010, Loss: 0.4896, Val AUC: 0.9231, Test AUC: 0.9230
+
+Epoch 1012: New best validation AUC: 0.9231
+Epoch: 1020, Loss: 0.4890, Val AUC: 0.9230, Test AUC: 0.9230
+
+Epoch 1024: New best validation AUC: 0.9231
+
+Epoch 1027: New best validation AUC: 0.9231
+Epoch: 1030, Loss: 0.4894, Val AUC: 0.9228, Test AUC: 0.9228
+
+Epoch 1040: New best validation AUC: 0.9231
+Epoch: 1040, Loss: 0.4890, Val AUC: 0.9231, Test AUC: 0.9231
+
+Epoch 1048: New best validation AUC: 0.9232
+Epoch: 1050, Loss: 0.4893, Val AUC: 0.9230, Test AUC: 0.9230
+Epoch: 1060, Loss: 0.4885, Val AUC: 0.9232, Test AUC: 0.9231
+Epoch: 1070, Loss: 0.4890, Val AUC: 0.9227, Test AUC: 0.9228
+
+Epoch 1073: New best validation AUC: 0.9232
+Epoch: 1080, Loss: 0.4886, Val AUC: 0.9232, Test AUC: 0.9231
+
+Epoch 1082: New best validation AUC: 0.9233
+Epoch: 1090, Loss: 0.4885, Val AUC: 0.9223, Test AUC: 0.9224
+Epoch: 1100, Loss: 0.4891, Val AUC: 0.9216, Test AUC: 0.9218
+Epoch: 1110, Loss: 0.4882, Val AUC: 0.9224, Test AUC: 0.9225
+Epoch: 1120, Loss: 0.4890, Val AUC: 0.9231, Test AUC: 0.9231
+Epoch: 1130, Loss: 0.4881, Val AUC: 0.9230, Test AUC: 0.9231
+
+Epoch 1136: New best validation AUC: 0.9233
+Epoch: 1140, Loss: 0.4891, Val AUC: 0.9228, Test AUC: 0.9229
+Epoch: 1150, Loss: 0.4892, Val AUC: 0.9227, Test AUC: 0.9228
+Epoch: 1160, Loss: 0.4885, Val AUC: 0.9231, Test AUC: 0.9231
+Epoch: 1170, Loss: 0.4877, Val AUC: 0.9229, Test AUC: 0.9229
+Epoch: 1180, Loss: 0.4892, Val AUC: 0.9230, Test AUC: 0.9231
+
+Epoch 1188: New best validation AUC: 0.9233
+Epoch: 1190, Loss: 0.4883, Val AUC: 0.9231, Test AUC: 0.9231
+Epoch: 1200, Loss: 0.4878, Val AUC: 0.9232, Test AUC: 0.9232
+Epoch: 1210, Loss: 0.4891, Val AUC: 0.9230, Test AUC: 0.9231
+Epoch: 1220, Loss: 0.4886, Val AUC: 0.9232, Test AUC: 0.9232
+Epoch: 1230, Loss: 0.4891, Val AUC: 0.9228, Test AUC: 0.9229
+
+Epoch 1236: New best validation AUC: 0.9234
+
+Epoch 1240: New best validation AUC: 0.9234
+Epoch: 1240, Loss: 0.4883, Val AUC: 0.9234, Test AUC: 0.9233
+
+Epoch 1243: New best validation AUC: 0.9234
+Epoch: 1250, Loss: 0.4883, Val AUC: 0.9234, Test AUC: 0.9233
+Epoch: 1260, Loss: 0.4881, Val AUC: 0.9228, Test AUC: 0.9229
+Epoch: 1270, Loss: 0.4875, Val AUC: 0.9232, Test AUC: 0.9233
+Epoch: 1280, Loss: 0.4885, Val AUC: 0.9227, Test AUC: 0.9228
+
+Epoch 1288: New best validation AUC: 0.9234
+Epoch: 1290, Loss: 0.4883, Val AUC: 0.9234, Test AUC: 0.9233
+Epoch: 1300, Loss: 0.4887, Val AUC: 0.9228, Test AUC: 0.9229
+Epoch: 1310, Loss: 0.4879, Val AUC: 0.9232, Test AUC: 0.9233
+
+Epoch 1313: New best validation AUC: 0.9234
+
+Epoch 1315: New best validation AUC: 0.9234
+
+Epoch 1319: New best validation AUC: 0.9235
+Epoch: 1320, Loss: 0.4871, Val AUC: 0.9229, Test AUC: 0.9231
+Epoch: 1330, Loss: 0.4887, Val AUC: 0.9234, Test AUC: 0.9234
+Epoch: 1340, Loss: 0.4876, Val AUC: 0.9234, Test AUC: 0.9233
+Epoch: 1350, Loss: 0.4882, Val AUC: 0.9232, Test AUC: 0.9233
+Epoch: 1360, Loss: 0.4880, Val AUC: 0.9230, Test AUC: 0.9231
+Epoch: 1370, Loss: 0.4883, Val AUC: 0.9231, Test AUC: 0.9232
+Epoch: 1380, Loss: 0.4881, Val AUC: 0.9230, Test AUC: 0.9231
+
+Epoch 1384: New best validation AUC: 0.9235
+Epoch: 1390, Loss: 0.4884, Val AUC: 0.9230, Test AUC: 0.9231
+
+Epoch 1391: New best validation AUC: 0.9235
+
+Epoch 1398: New best validation AUC: 0.9235
+Epoch: 1400, Loss: 0.4879, Val AUC: 0.9235, Test AUC: 0.9234
+Epoch: 1410, Loss: 0.4871, Val AUC: 0.9231, Test AUC: 0.9232
+Epoch: 1420, Loss: 0.4879, Val AUC: 0.9235, Test AUC: 0.9235
+Epoch: 1430, Loss: 0.4879, Val AUC: 0.9235, Test AUC: 0.9235
+
+Epoch 1439: New best validation AUC: 0.9235
+Epoch: 1440, Loss: 0.4880, Val AUC: 0.9230, Test AUC: 0.9231
+
+Epoch 1450: New best validation AUC: 0.9236
+Epoch: 1450, Loss: 0.4882, Val AUC: 0.9236, Test AUC: 0.9235
+Epoch: 1460, Loss: 0.4876, Val AUC: 0.9228, Test AUC: 0.9229
+Epoch: 1470, Loss: 0.4883, Val AUC: 0.9234, Test AUC: 0.9232
+
+Epoch 1472: New best validation AUC: 0.9236
+Epoch: 1480, Loss: 0.4876, Val AUC: 0.9232, Test AUC: 0.9233
+
+Epoch 1487: New best validation AUC: 0.9236
+Epoch: 1490, Loss: 0.4890, Val AUC: 0.9228, Test AUC: 0.9229
+Epoch: 1500, Loss: 0.4882, Val AUC: 0.9234, Test AUC: 0.9234
+Epoch: 1510, Loss: 0.4879, Val AUC: 0.9234, Test AUC: 0.9234
+
+Epoch 1515: New best validation AUC: 0.9236
+Epoch: 1520, Loss: 0.4878, Val AUC: 0.9236, Test AUC: 0.9235
+
+Epoch 1522: New best validation AUC: 0.9236
+Epoch: 1530, Loss: 0.4877, Val AUC: 0.9234, Test AUC: 0.9235
+Epoch: 1540, Loss: 0.4880, Val AUC: 0.9226, Test AUC: 0.9228
+
+Epoch 1541: New best validation AUC: 0.9236
+
+Epoch 1548: New best validation AUC: 0.9236
+Epoch: 1550, Loss: 0.4878, Val AUC: 0.9233, Test AUC: 0.9234
+Epoch: 1560, Loss: 0.4879, Val AUC: 0.9236, Test AUC: 0.9236
+Epoch: 1570, Loss: 0.4874, Val AUC: 0.9235, Test AUC: 0.9236
+
+Epoch 1579: New best validation AUC: 0.9237
+Epoch: 1580, Loss: 0.4879, Val AUC: 0.9228, Test AUC: 0.9230
+
+Epoch 1583: New best validation AUC: 0.9237
+Epoch: 1590, Loss: 0.4873, Val AUC: 0.9231, Test AUC: 0.9232
+
+Epoch 1596: New best validation AUC: 0.9237
+Epoch: 1600, Loss: 0.4880, Val AUC: 0.9233, Test AUC: 0.9234
+Epoch: 1610, Loss: 0.4879, Val AUC: 0.9236, Test AUC: 0.9234
+Epoch: 1620, Loss: 0.4872, Val AUC: 0.9237, Test AUC: 0.9236
+Epoch: 1630, Loss: 0.4889, Val AUC: 0.9222, Test AUC: 0.9225
+
+Epoch 1636: New best validation AUC: 0.9237
+Epoch: 1640, Loss: 0.4876, Val AUC: 0.9224, Test AUC: 0.9226
+Epoch: 1650, Loss: 0.4876, Val AUC: 0.9228, Test AUC: 0.9230
+Epoch: 1660, Loss: 0.4878, Val AUC: 0.9236, Test AUC: 0.9236
+
+Epoch 1664: New best validation AUC: 0.9237
+
+Epoch 1669: New best validation AUC: 0.9237
+Epoch: 1670, Loss: 0.4872, Val AUC: 0.9231, Test AUC: 0.9232
+
+Epoch 1674: New best validation AUC: 0.9237
+Epoch: 1680, Loss: 0.4874, Val AUC: 0.9229, Test AUC: 0.9230
+
+Epoch 1681: New best validation AUC: 0.9237
+Epoch: 1690, Loss: 0.4874, Val AUC: 0.9234, Test AUC: 0.9235
+Epoch: 1700, Loss: 0.4876, Val AUC: 0.9236, Test AUC: 0.9237
+Epoch: 1710, Loss: 0.4866, Val AUC: 0.9236, Test AUC: 0.9237
+
+Epoch 1715: New best validation AUC: 0.9238
+
+Epoch 1717: New best validation AUC: 0.9238
+Epoch: 1720, Loss: 0.4879, Val AUC: 0.9237, Test AUC: 0.9238
+
+Epoch 1722: New best validation AUC: 0.9238
+Epoch: 1730, Loss: 0.4881, Val AUC: 0.9235, Test AUC: 0.9236
+Epoch: 1740, Loss: 0.4880, Val AUC: 0.9237, Test AUC: 0.9237
+
+Epoch 1745: New best validation AUC: 0.9238
+
+Epoch 1747: New best validation AUC: 0.9239
+Epoch: 1750, Loss: 0.4872, Val AUC: 0.9233, Test AUC: 0.9235
+
+Epoch 1754: New best validation AUC: 0.9239
+Epoch: 1760, Loss: 0.4874, Val AUC: 0.9238, Test AUC: 0.9238
+
+Epoch 1769: New best validation AUC: 0.9239
+Epoch: 1770, Loss: 0.4872, Val AUC: 0.9230, Test AUC: 0.9232
+
+Epoch 1778: New best validation AUC: 0.9239
+Epoch: 1780, Loss: 0.4868, Val AUC: 0.9239, Test AUC: 0.9239
+
+Epoch 1789: New best validation AUC: 0.9239
+Epoch: 1790, Loss: 0.4878, Val AUC: 0.9231, Test AUC: 0.9232
+
+Epoch 1798: New best validation AUC: 0.9239
+Epoch: 1800, Loss: 0.4879, Val AUC: 0.9239, Test AUC: 0.9239
+Epoch: 1810, Loss: 0.4867, Val AUC: 0.9239, Test AUC: 0.9239
+
+Epoch 1817: New best validation AUC: 0.9239
+Epoch: 1820, Loss: 0.4874, Val AUC: 0.9237, Test AUC: 0.9238
+Epoch: 1830, Loss: 0.4874, Val AUC: 0.9239, Test AUC: 0.9239
+Epoch: 1840, Loss: 0.4874, Val AUC: 0.9238, Test AUC: 0.9239
+
+Epoch 1844: New best validation AUC: 0.9240
+Epoch: 1850, Loss: 0.4873, Val AUC: 0.9238, Test AUC: 0.9239
+Epoch: 1860, Loss: 0.4871, Val AUC: 0.9239, Test AUC: 0.9239
+Epoch: 1870, Loss: 0.4874, Val AUC: 0.9239, Test AUC: 0.9240
+
+Epoch 1874: New best validation AUC: 0.9240
+Epoch: 1880, Loss: 0.4871, Val AUC: 0.9238, Test AUC: 0.9239
+
+Epoch 1886: New best validation AUC: 0.9240
+
+Epoch 1888: New best validation AUC: 0.9240
+Epoch: 1890, Loss: 0.4876, Val AUC: 0.9239, Test AUC: 0.9237
+Epoch: 1900, Loss: 0.4866, Val AUC: 0.9230, Test AUC: 0.9232
+
+Epoch 1901: New best validation AUC: 0.9241
+
+Epoch 1903: New best validation AUC: 0.9241
+Epoch: 1910, Loss: 0.4876, Val AUC: 0.9239, Test AUC: 0.9240
+Epoch: 1920, Loss: 0.4866, Val AUC: 0.9240, Test AUC: 0.9240
+Epoch: 1930, Loss: 0.4877, Val AUC: 0.9236, Test AUC: 0.9238
+
+Epoch 1934: New best validation AUC: 0.9241
+Epoch: 1940, Loss: 0.4871, Val AUC: 0.9238, Test AUC: 0.9239
+
+Epoch 1947: New best validation AUC: 0.9241
+
+Epoch 1949: New best validation AUC: 0.9241
+Epoch: 1950, Loss: 0.4873, Val AUC: 0.9236, Test AUC: 0.9237
+Epoch: 1960, Loss: 0.4866, Val AUC: 0.9236, Test AUC: 0.9238
+Epoch: 1970, Loss: 0.4878, Val AUC: 0.9240, Test AUC: 0.9238
+
+Epoch 1972: New best validation AUC: 0.9241
+Epoch: 1980, Loss: 0.4872, Val AUC: 0.9239, Test AUC: 0.9240
+
+Epoch 1982: New best validation AUC: 0.9241
+
+Epoch 1987: New best validation AUC: 0.9242
+Epoch: 1990, Loss: 0.4876, Val AUC: 0.9233, Test AUC: 0.9235
+Epoch: 2000, Loss: 0.4868, Val AUC: 0.9240, Test AUC: 0.9241
+
+Epoch 2003: New best validation AUC: 0.9242
+Epoch: 2010, Loss: 0.4875, Val AUC: 0.9241, Test AUC: 0.9241
+Epoch: 2020, Loss: 0.4866, Val AUC: 0.9239, Test AUC: 0.9240
+Epoch: 2030, Loss: 0.4872, Val AUC: 0.9238, Test AUC: 0.9239
+Epoch: 2040, Loss: 0.4866, Val AUC: 0.9236, Test AUC: 0.9238
+
+Epoch 2041: New best validation AUC: 0.9242
+
+Epoch 2043: New best validation AUC: 0.9242
+Epoch: 2050, Loss: 0.4869, Val AUC: 0.9241, Test AUC: 0.9241
+
+Epoch 2058: New best validation AUC: 0.9242
+
+Epoch 2060: New best validation AUC: 0.9242
+Epoch: 2060, Loss: 0.4870, Val AUC: 0.9242, Test AUC: 0.9242
+
+Epoch 2065: New best validation AUC: 0.9243
+Epoch: 2070, Loss: 0.4872, Val AUC: 0.9231, Test AUC: 0.9233
+Epoch: 2080, Loss: 0.4871, Val AUC: 0.9235, Test AUC: 0.9237
+Epoch: 2090, Loss: 0.4863, Val AUC: 0.9241, Test AUC: 0.9242
+Epoch: 2100, Loss: 0.4865, Val AUC: 0.9242, Test AUC: 0.9242
+
+Epoch 2105: New best validation AUC: 0.9243
+Epoch: 2110, Loss: 0.4868, Val AUC: 0.9236, Test AUC: 0.9237
+
+Epoch 2114: New best validation AUC: 0.9243
+Epoch: 2120, Loss: 0.4867, Val AUC: 0.9238, Test AUC: 0.9240
+
+Epoch 2121: New best validation AUC: 0.9243
+
+Epoch 2123: New best validation AUC: 0.9243
+
+Epoch 2128: New best validation AUC: 0.9243
+Epoch: 2130, Loss: 0.4869, Val AUC: 0.9243, Test AUC: 0.9243
+Epoch: 2140, Loss: 0.4865, Val AUC: 0.9240, Test AUC: 0.9241
+Epoch: 2150, Loss: 0.4872, Val AUC: 0.9241, Test AUC: 0.9242
+
+Epoch 2157: New best validation AUC: 0.9243
+
+Epoch 2159: New best validation AUC: 0.9244
+Epoch: 2160, Loss: 0.4869, Val AUC: 0.9237, Test AUC: 0.9239
+
+Epoch 2170: New best validation AUC: 0.9244
+Epoch: 2170, Loss: 0.4862, Val AUC: 0.9244, Test AUC: 0.9243
+Epoch: 2180, Loss: 0.4868, Val AUC: 0.9237, Test AUC: 0.9238
+Epoch: 2190, Loss: 0.4862, Val AUC: 0.9243, Test AUC: 0.9243
+
+Epoch 2199: New best validation AUC: 0.9244
+Epoch: 2200, Loss: 0.4865, Val AUC: 0.9236, Test AUC: 0.9238
+
+Epoch 2201: New best validation AUC: 0.9244
+Epoch: 2210, Loss: 0.4878, Val AUC: 0.9244, Test AUC: 0.9244
+Epoch: 2220, Loss: 0.4865, Val AUC: 0.9244, Test AUC: 0.9244
+
+Epoch 2229: New best validation AUC: 0.9244
+Epoch: 2230, Loss: 0.4871, Val AUC: 0.9227, Test AUC: 0.9230
+Epoch: 2240, Loss: 0.4868, Val AUC: 0.9240, Test AUC: 0.9242
+
+Epoch 2250: New best validation AUC: 0.9244
+Epoch: 2250, Loss: 0.4871, Val AUC: 0.9244, Test AUC: 0.9244
+
+Epoch 2255: New best validation AUC: 0.9244
+Epoch: 2260, Loss: 0.4869, Val AUC: 0.9244, Test AUC: 0.9244
+Epoch: 2270, Loss: 0.4866, Val AUC: 0.9244, Test AUC: 0.9244
+Epoch: 2280, Loss: 0.4860, Val AUC: 0.9241, Test AUC: 0.9242
+
+Epoch 2286: New best validation AUC: 0.9244
+
+Epoch 2288: New best validation AUC: 0.9245
+Epoch: 2290, Loss: 0.4868, Val AUC: 0.9244, Test AUC: 0.9245
+Epoch: 2300, Loss: 0.4865, Val AUC: 0.9244, Test AUC: 0.9245
+
+Epoch 2305: New best validation AUC: 0.9245
+
+Epoch 2307: New best validation AUC: 0.9245
+Epoch: 2310, Loss: 0.4863, Val AUC: 0.9244, Test AUC: 0.9244
+
+Epoch 2317: New best validation AUC: 0.9245
+Epoch: 2320, Loss: 0.4872, Val AUC: 0.9240, Test AUC: 0.9242
+
+Epoch 2324: New best validation AUC: 0.9245
+Epoch: 2330, Loss: 0.4861, Val AUC: 0.9243, Test AUC: 0.9244
+
+Epoch 2332: New best validation AUC: 0.9246
+Epoch: 2340, Loss: 0.4865, Val AUC: 0.9242, Test AUC: 0.9243
+
+Epoch 2350: New best validation AUC: 0.9246
+Epoch: 2350, Loss: 0.4863, Val AUC: 0.9246, Test AUC: 0.9245
+
+Epoch 2352: New best validation AUC: 0.9246
+Epoch: 2360, Loss: 0.4868, Val AUC: 0.9240, Test AUC: 0.9242
+Epoch: 2370, Loss: 0.4875, Val AUC: 0.9246, Test AUC: 0.9246
+Epoch: 2380, Loss: 0.4873, Val AUC: 0.9244, Test AUC: 0.9245
+Epoch: 2390, Loss: 0.4863, Val AUC: 0.9245, Test AUC: 0.9245
+Epoch: 2400, Loss: 0.4867, Val AUC: 0.9243, Test AUC: 0.9244
+
+Epoch 2403: New best validation AUC: 0.9246
+Epoch: 2410, Loss: 0.4859, Val AUC: 0.9244, Test AUC: 0.9245
+
+Epoch 2414: New best validation AUC: 0.9246
+Epoch: 2420, Loss: 0.4862, Val AUC: 0.9236, Test AUC: 0.9238
+Epoch: 2430, Loss: 0.4868, Val AUC: 0.9246, Test AUC: 0.9246
+Epoch: 2440, Loss: 0.4863, Val AUC: 0.9239, Test AUC: 0.9241
+Epoch: 2450, Loss: 0.4865, Val AUC: 0.9243, Test AUC: 0.9244
+
+Epoch 2456: New best validation AUC: 0.9247
+Epoch: 2460, Loss: 0.4867, Val AUC: 0.9246, Test AUC: 0.9246
+Epoch: 2470, Loss: 0.4865, Val AUC: 0.9243, Test AUC: 0.9244
+
+Epoch 2472: New best validation AUC: 0.9247
+Epoch: 2480, Loss: 0.4874, Val AUC: 0.9223, Test AUC: 0.9226
+
+Epoch 2483: New best validation AUC: 0.9247
+Epoch: 2490, Loss: 0.4861, Val AUC: 0.9240, Test AUC: 0.9241
+Epoch: 2500, Loss: 0.4859, Val AUC: 0.9245, Test AUC: 0.9246
+Epoch: 2510, Loss: 0.4867, Val AUC: 0.9245, Test AUC: 0.9246
+Epoch: 2520, Loss: 0.4869, Val AUC: 0.9241, Test AUC: 0.9243
+Epoch: 2530, Loss: 0.4862, Val AUC: 0.9244, Test AUC: 0.9245
+
+Epoch 2538: New best validation AUC: 0.9247
+
+Epoch 2540: New best validation AUC: 0.9247
+Epoch: 2540, Loss: 0.4877, Val AUC: 0.9247, Test AUC: 0.9247
+
+Epoch 2547: New best validation AUC: 0.9247
+Epoch: 2550, Loss: 0.4864, Val AUC: 0.9247, Test AUC: 0.9247
+Epoch: 2560, Loss: 0.4857, Val AUC: 0.9244, Test AUC: 0.9245
+
+Epoch 2564: New best validation AUC: 0.9247
+
+Epoch 2569: New best validation AUC: 0.9248
+Epoch: 2570, Loss: 0.4869, Val AUC: 0.9239, Test AUC: 0.9241
+
+Epoch 2576: New best validation AUC: 0.9248
+Epoch: 2580, Loss: 0.4859, Val AUC: 0.9247, Test AUC: 0.9247
+Epoch: 2590, Loss: 0.4861, Val AUC: 0.9247, Test AUC: 0.9247
+
+Epoch 2598: New best validation AUC: 0.9248
+
+Epoch 2600: New best validation AUC: 0.9248
+Epoch: 2600, Loss: 0.4870, Val AUC: 0.9248, Test AUC: 0.9248
+Epoch: 2610, Loss: 0.4864, Val AUC: 0.9248, Test AUC: 0.9248
+Epoch: 2620, Loss: 0.4853, Val AUC: 0.9245, Test AUC: 0.9246
+
+Epoch 2625: New best validation AUC: 0.9248
+Epoch: 2630, Loss: 0.4869, Val AUC: 0.9243, Test AUC: 0.9244
+
+Epoch 2636: New best validation AUC: 0.9248
+Epoch: 2640, Loss: 0.4854, Val AUC: 0.9242, Test AUC: 0.9243
+Epoch: 2650, Loss: 0.4859, Val AUC: 0.9247, Test AUC: 0.9248
+
+Epoch 2653: New best validation AUC: 0.9248
+
+Epoch 2657: New best validation AUC: 0.9248
+Epoch: 2660, Loss: 0.4859, Val AUC: 0.9248, Test AUC: 0.9248
+Epoch: 2670, Loss: 0.4860, Val AUC: 0.9243, Test AUC: 0.9245
+Epoch: 2680, Loss: 0.4864, Val AUC: 0.9247, Test AUC: 0.9248
+
+Epoch 2689: New best validation AUC: 0.9249
+Epoch: 2690, Loss: 0.4875, Val AUC: 0.9239, Test AUC: 0.9241
+
+Epoch 2695: New best validation AUC: 0.9249
+Epoch: 2700, Loss: 0.4863, Val AUC: 0.9249, Test AUC: 0.9248
+Epoch: 2710, Loss: 0.4875, Val AUC: 0.9239, Test AUC: 0.9241
+Epoch: 2720, Loss: 0.4872, Val AUC: 0.9235, Test AUC: 0.9237
+
+Epoch 2721: New best validation AUC: 0.9249
+Epoch: 2730, Loss: 0.4854, Val AUC: 0.9239, Test AUC: 0.9241
+
+Epoch 2736: New best validation AUC: 0.9249
+Epoch: 2740, Loss: 0.4857, Val AUC: 0.9243, Test AUC: 0.9244
+Epoch: 2750, Loss: 0.4863, Val AUC: 0.9246, Test AUC: 0.9247
+Epoch: 2760, Loss: 0.4869, Val AUC: 0.9247, Test AUC: 0.9248
+
+Epoch 2765: New best validation AUC: 0.9249
+Epoch: 2770, Loss: 0.4861, Val AUC: 0.9249, Test AUC: 0.9249
+Epoch: 2780, Loss: 0.4859, Val AUC: 0.9245, Test AUC: 0.9247
+
+Epoch 2784: New best validation AUC: 0.9250
+Epoch: 2790, Loss: 0.4868, Val AUC: 0.9242, Test AUC: 0.9244
+
+Epoch 2800: New best validation AUC: 0.9250
+Epoch: 2800, Loss: 0.4867, Val AUC: 0.9250, Test AUC: 0.9250
+
+Epoch 2802: New best validation AUC: 0.9250
+Epoch: 2810, Loss: 0.4869, Val AUC: 0.9236, Test AUC: 0.9239
+Epoch: 2820, Loss: 0.4869, Val AUC: 0.9249, Test AUC: 0.9250
+Epoch: 2830, Loss: 0.4865, Val AUC: 0.9249, Test AUC: 0.9250
+
+Epoch 2836: New best validation AUC: 0.9250
+Epoch: 2840, Loss: 0.4865, Val AUC: 0.9245, Test AUC: 0.9246
+
+Epoch 2850: New best validation AUC: 0.9250
+Epoch: 2850, Loss: 0.4865, Val AUC: 0.9250, Test AUC: 0.9250
+
+Epoch 2854: New best validation AUC: 0.9251
+Epoch: 2860, Loss: 0.4859, Val AUC: 0.9246, Test AUC: 0.9247
+
+Epoch 2868: New best validation AUC: 0.9251
+Epoch: 2870, Loss: 0.4869, Val AUC: 0.9250, Test AUC: 0.9249
+Epoch: 2880, Loss: 0.4866, Val AUC: 0.9244, Test AUC: 0.9245
+Epoch: 2890, Loss: 0.4860, Val AUC: 0.9250, Test AUC: 0.9250
+Epoch: 2900, Loss: 0.4864, Val AUC: 0.9244, Test AUC: 0.9246
+Epoch: 2910, Loss: 0.4857, Val AUC: 0.9249, Test AUC: 0.9249
+Epoch: 2920, Loss: 0.4860, Val AUC: 0.9251, Test AUC: 0.9250
+
+Epoch 2924: New best validation AUC: 0.9251
+Epoch: 2930, Loss: 0.4856, Val AUC: 0.9248, Test AUC: 0.9249
+
+Epoch 2931: New best validation AUC: 0.9251
+Epoch: 2940, Loss: 0.4862, Val AUC: 0.9250, Test AUC: 0.9249
+
+Epoch 2950: New best validation AUC: 0.9251
+Epoch: 2950, Loss: 0.4863, Val AUC: 0.9251, Test AUC: 0.9251
+Epoch: 2960, Loss: 0.4864, Val AUC: 0.9240, Test AUC: 0.9242
+
+Epoch 2964: New best validation AUC: 0.9251
+Epoch: 2970, Loss: 0.4863, Val AUC: 0.9247, Test AUC: 0.9248
+
+Epoch 2979: New best validation AUC: 0.9252
+Epoch: 2980, Loss: 0.4863, Val AUC: 0.9245, Test AUC: 0.9247
+
+Epoch 2986: New best validation AUC: 0.9252
+Epoch: 2990, Loss: 0.4866, Val AUC: 0.9251, Test AUC: 0.9251
+
+Epoch 3000: New best validation AUC: 0.9252
+Epoch: 3000, Loss: 0.4856, Val AUC: 0.9252, Test AUC: 0.9251
+
+Epoch 3002: New best validation AUC: 0.9252
+Epoch: 3010, Loss: 0.4862, Val AUC: 0.9247, Test AUC: 0.9248
+Epoch: 3020, Loss: 0.4853, Val AUC: 0.9245, Test AUC: 0.9247
+
+Epoch 3024: New best validation AUC: 0.9252
+Epoch: 3030, Loss: 0.4865, Val AUC: 0.9251, Test AUC: 0.9251
+Epoch: 3040, Loss: 0.4862, Val AUC: 0.9251, Test AUC: 0.9250
+
+Epoch 3045: New best validation AUC: 0.9252
+
+Epoch 3047: New best validation AUC: 0.9252
+Epoch: 3050, Loss: 0.4865, Val AUC: 0.9247, Test AUC: 0.9248
+
+Epoch 3058: New best validation AUC: 0.9253
+Epoch: 3060, Loss: 0.4866, Val AUC: 0.9249, Test AUC: 0.9250
+Epoch: 3070, Loss: 0.4860, Val AUC: 0.9253, Test AUC: 0.9252
+Epoch: 3080, Loss: 0.4860, Val AUC: 0.9251, Test AUC: 0.9251
+Epoch: 3090, Loss: 0.4858, Val AUC: 0.9249, Test AUC: 0.9250
+Epoch: 3100, Loss: 0.4855, Val AUC: 0.9252, Test AUC: 0.9252
+
+Epoch 3104: New best validation AUC: 0.9253
+Epoch: 3110, Loss: 0.4861, Val AUC: 0.9252, Test AUC: 0.9252
+
+Epoch 3115: New best validation AUC: 0.9253
+Epoch: 3120, Loss: 0.4860, Val AUC: 0.9251, Test AUC: 0.9251
+Epoch: 3130, Loss: 0.4860, Val AUC: 0.9250, Test AUC: 0.9251
+Epoch: 3140, Loss: 0.4861, Val AUC: 0.9251, Test AUC: 0.9252
+
+Epoch 3143: New best validation AUC: 0.9253
+
+Epoch 3145: New best validation AUC: 0.9254
+Epoch: 3150, Loss: 0.4866, Val AUC: 0.9251, Test AUC: 0.9252
+Epoch: 3160, Loss: 0.4864, Val AUC: 0.9251, Test AUC: 0.9252
+Epoch: 3170, Loss: 0.4865, Val AUC: 0.9253, Test AUC: 0.9252
+Epoch: 3180, Loss: 0.4859, Val AUC: 0.9253, Test AUC: 0.9253
+
+Epoch 3184: New best validation AUC: 0.9254
+
+Epoch 3186: New best validation AUC: 0.9254
+Epoch: 3190, Loss: 0.4861, Val AUC: 0.9248, Test AUC: 0.9249
+
+Epoch 3191: New best validation AUC: 0.9254
+
+Epoch 3196: New best validation AUC: 0.9254
+Epoch: 3200, Loss: 0.4861, Val AUC: 0.9250, Test AUC: 0.9251
+
+Epoch 3201: New best validation AUC: 0.9254
+
+Epoch 3203: New best validation AUC: 0.9254
+Epoch: 3210, Loss: 0.4861, Val AUC: 0.9253, Test AUC: 0.9254
+Epoch: 3220, Loss: 0.4859, Val AUC: 0.9250, Test AUC: 0.9252
+
+Epoch 3224: New best validation AUC: 0.9255
+
+Epoch 3226: New best validation AUC: 0.9255
+Epoch: 3230, Loss: 0.4855, Val AUC: 0.9254, Test AUC: 0.9254
+Epoch: 3240, Loss: 0.4857, Val AUC: 0.9251, Test AUC: 0.9252
+
+Epoch 3246: New best validation AUC: 0.9255
+Epoch: 3250, Loss: 0.4859, Val AUC: 0.9253, Test AUC: 0.9254
+Epoch: 3260, Loss: 0.4864, Val AUC: 0.9254, Test AUC: 0.9254
+Epoch: 3270, Loss: 0.4858, Val AUC: 0.9252, Test AUC: 0.9253
+
+Epoch 3275: New best validation AUC: 0.9255
+Epoch: 3280, Loss: 0.4859, Val AUC: 0.9254, Test AUC: 0.9254
+
+Epoch 3282: New best validation AUC: 0.9255
+
+Epoch 3284: New best validation AUC: 0.9255
+Epoch: 3290, Loss: 0.4855, Val AUC: 0.9253, Test AUC: 0.9254
+Epoch: 3300, Loss: 0.4859, Val AUC: 0.9253, Test AUC: 0.9254
+Epoch: 3310, Loss: 0.4861, Val AUC: 0.9250, Test AUC: 0.9251
+
+Epoch 3311: New best validation AUC: 0.9255
+
+Epoch 3313: New best validation AUC: 0.9255
+
+Epoch 3318: New best validation AUC: 0.9255
+Epoch: 3320, Loss: 0.4866, Val AUC: 0.9255, Test AUC: 0.9254
+
+Epoch 3322: New best validation AUC: 0.9255
+
+Epoch 3324: New best validation AUC: 0.9255
+Epoch: 3330, Loss: 0.4861, Val AUC: 0.9252, Test AUC: 0.9253
+
+Epoch 3333: New best validation AUC: 0.9256
+Epoch: 3340, Loss: 0.4868, Val AUC: 0.9250, Test AUC: 0.9251
+Epoch: 3350, Loss: 0.4869, Val AUC: 0.9255, Test AUC: 0.9255
+Epoch: 3360, Loss: 0.4869, Val AUC: 0.9253, Test AUC: 0.9252
+Epoch: 3370, Loss: 0.4871, Val AUC: 0.9255, Test AUC: 0.9254
+Epoch: 3380, Loss: 0.4860, Val AUC: 0.9255, Test AUC: 0.9255
+
+Epoch 3389: New best validation AUC: 0.9256
+Epoch: 3390, Loss: 0.4855, Val AUC: 0.9252, Test AUC: 0.9253
+
+Epoch 3394: New best validation AUC: 0.9256
+Epoch: 3400, Loss: 0.4857, Val AUC: 0.9252, Test AUC: 0.9253
+
+Epoch 3406: New best validation AUC: 0.9256
+
+Epoch 3408: New best validation AUC: 0.9256
+Epoch: 3410, Loss: 0.4863, Val AUC: 0.9254, Test AUC: 0.9254
+
+Epoch 3411: New best validation AUC: 0.9256
+
+Epoch 3418: New best validation AUC: 0.9256
+Epoch: 3420, Loss: 0.4864, Val AUC: 0.9256, Test AUC: 0.9256
+
+Epoch 3428: New best validation AUC: 0.9256
+Epoch: 3430, Loss: 0.4865, Val AUC: 0.9256, Test AUC: 0.9256
+Epoch: 3440, Loss: 0.4858, Val AUC: 0.9254, Test AUC: 0.9255
+
+Epoch 3449: New best validation AUC: 0.9256
+Epoch: 3450, Loss: 0.4862, Val AUC: 0.9251, Test AUC: 0.9252
+
+Epoch 3451: New best validation AUC: 0.9256
+
+Epoch 3458: New best validation AUC: 0.9256
+Epoch: 3460, Loss: 0.4857, Val AUC: 0.9256, Test AUC: 0.9256
+
+Epoch 3468: New best validation AUC: 0.9257
+Epoch: 3470, Loss: 0.4853, Val AUC: 0.9256, Test AUC: 0.9257
+
+Epoch 3473: New best validation AUC: 0.9257
+
+Epoch 3475: New best validation AUC: 0.9257
+Epoch: 3480, Loss: 0.4859, Val AUC: 0.9257, Test AUC: 0.9256
+Epoch: 3490, Loss: 0.4866, Val AUC: 0.9252, Test AUC: 0.9253
+Epoch: 3500, Loss: 0.4862, Val AUC: 0.9256, Test AUC: 0.9257
+Epoch: 3510, Loss: 0.4858, Val AUC: 0.9256, Test AUC: 0.9256
+
+Epoch 3516: New best validation AUC: 0.9257
+Epoch: 3520, Loss: 0.4858, Val AUC: 0.9257, Test AUC: 0.9257
+
+Epoch 3524: New best validation AUC: 0.9258
+
+Epoch 3526: New best validation AUC: 0.9258
+Epoch: 3530, Loss: 0.4854, Val AUC: 0.9254, Test AUC: 0.9254
+
+Epoch 3531: New best validation AUC: 0.9258
+
+Epoch 3533: New best validation AUC: 0.9258
+Epoch: 3540, Loss: 0.4860, Val AUC: 0.9257, Test AUC: 0.9256
+Epoch: 3550, Loss: 0.4857, Val AUC: 0.9257, Test AUC: 0.9257
+Epoch: 3560, Loss: 0.4857, Val AUC: 0.9257, Test AUC: 0.9258
+
+Epoch 3565: New best validation AUC: 0.9258
+
+Epoch 3567: New best validation AUC: 0.9258
+Epoch: 3570, Loss: 0.4860, Val AUC: 0.9247, Test AUC: 0.9248
+Epoch: 3580, Loss: 0.4859, Val AUC: 0.9258, Test AUC: 0.9257
+
+Epoch 3582: New best validation AUC: 0.9258
+Epoch: 3590, Loss: 0.4850, Val AUC: 0.9256, Test AUC: 0.9256
+Epoch: 3600, Loss: 0.4856, Val AUC: 0.9256, Test AUC: 0.9256
+
+Epoch 3607: New best validation AUC: 0.9259
+Epoch: 3610, Loss: 0.4855, Val AUC: 0.9257, Test AUC: 0.9258
+Epoch: 3620, Loss: 0.4854, Val AUC: 0.9256, Test AUC: 0.9257
+Epoch: 3630, Loss: 0.4862, Val AUC: 0.9258, Test AUC: 0.9258
+Epoch: 3640, Loss: 0.4856, Val AUC: 0.9256, Test AUC: 0.9257
+Epoch: 3650, Loss: 0.4856, Val AUC: 0.9257, Test AUC: 0.9258
+
+Epoch 3660: New best validation AUC: 0.9259
+Epoch: 3660, Loss: 0.4849, Val AUC: 0.9259, Test AUC: 0.9258
+
+Epoch 3662: New best validation AUC: 0.9259
+
+Epoch 3667: New best validation AUC: 0.9259
+Epoch: 3670, Loss: 0.4859, Val AUC: 0.9248, Test AUC: 0.9249
+
+Epoch 3676: New best validation AUC: 0.9259
+Epoch: 3680, Loss: 0.4864, Val AUC: 0.9259, Test AUC: 0.9257
+
+Epoch 3687: New best validation AUC: 0.9259
+Epoch: 3690, Loss: 0.4852, Val AUC: 0.9259, Test AUC: 0.9259
+
+Epoch 3692: New best validation AUC: 0.9259
+Epoch: 3700, Loss: 0.4861, Val AUC: 0.9256, Test AUC: 0.9257
+
+Epoch 3701: New best validation AUC: 0.9259
+
+Epoch 3703: New best validation AUC: 0.9260
+
+Epoch 3709: New best validation AUC: 0.9260
+Epoch: 3710, Loss: 0.4856, Val AUC: 0.9255, Test AUC: 0.9256
+
+Epoch 3714: New best validation AUC: 0.9260
+Epoch: 3720, Loss: 0.4856, Val AUC: 0.9257, Test AUC: 0.9258
+
+Epoch 3730: New best validation AUC: 0.9260
+Epoch: 3730, Loss: 0.4857, Val AUC: 0.9260, Test AUC: 0.9260
+Epoch: 3740, Loss: 0.4860, Val AUC: 0.9256, Test AUC: 0.9257
+
+Epoch 3741: New best validation AUC: 0.9260
+Epoch: 3750, Loss: 0.4869, Val AUC: 0.9259, Test AUC: 0.9257
+Epoch: 3760, Loss: 0.4858, Val AUC: 0.9255, Test AUC: 0.9256
+
+Epoch 3764: New best validation AUC: 0.9260
+Epoch: 3770, Loss: 0.4856, Val AUC: 0.9259, Test AUC: 0.9259
+Epoch: 3780, Loss: 0.4858, Val AUC: 0.9260, Test AUC: 0.9260
+
+Epoch 3782: New best validation AUC: 0.9260
+
+Epoch 3786: New best validation AUC: 0.9260
+Epoch: 3790, Loss: 0.4853, Val AUC: 0.9257, Test AUC: 0.9258
+Epoch: 3800, Loss: 0.4858, Val AUC: 0.9260, Test AUC: 0.9260
+
+Epoch 3805: New best validation AUC: 0.9261
+Epoch: 3810, Loss: 0.4857, Val AUC: 0.9257, Test AUC: 0.9257
+
+Epoch 3816: New best validation AUC: 0.9261
+
+Epoch 3819: New best validation AUC: 0.9261
+Epoch: 3820, Loss: 0.4855, Val AUC: 0.9252, Test AUC: 0.9253
+
+Epoch 3825: New best validation AUC: 0.9261
+Epoch: 3830, Loss: 0.4859, Val AUC: 0.9261, Test AUC: 0.9260
+
+Epoch 3834: New best validation AUC: 0.9261
+Epoch: 3840, Loss: 0.4863, Val AUC: 0.9257, Test AUC: 0.9258
+Epoch: 3850, Loss: 0.4858, Val AUC: 0.9260, Test AUC: 0.9260
+
+Epoch 3858: New best validation AUC: 0.9261
+Epoch: 3860, Loss: 0.4859, Val AUC: 0.9261, Test AUC: 0.9260
+
+Epoch 3862: New best validation AUC: 0.9261
+Epoch: 3870, Loss: 0.4859, Val AUC: 0.9258, Test AUC: 0.9258
+
+Epoch 3871: New best validation AUC: 0.9261
+
+Epoch 3873: New best validation AUC: 0.9261
+Epoch: 3880, Loss: 0.4854, Val AUC: 0.9259, Test AUC: 0.9260
+
+Epoch 3889: New best validation AUC: 0.9262
+Epoch: 3890, Loss: 0.4855, Val AUC: 0.9252, Test AUC: 0.9253
+Epoch: 3900, Loss: 0.4861, Val AUC: 0.9261, Test AUC: 0.9261
+
+Epoch 3902: New best validation AUC: 0.9262
+Epoch: 3910, Loss: 0.4851, Val AUC: 0.9255, Test AUC: 0.9256
+Epoch: 3920, Loss: 0.4855, Val AUC: 0.9261, Test AUC: 0.9261
+
+Epoch 3922: New best validation AUC: 0.9262
+
+Epoch 3924: New best validation AUC: 0.9262
+
+Epoch 3930: New best validation AUC: 0.9262
+Epoch: 3930, Loss: 0.4859, Val AUC: 0.9262, Test AUC: 0.9261
+
+Epoch 3940: New best validation AUC: 0.9262
+Epoch: 3940, Loss: 0.4857, Val AUC: 0.9262, Test AUC: 0.9261
+
+Epoch 3945: New best validation AUC: 0.9262
+Epoch: 3950, Loss: 0.4852, Val AUC: 0.9258, Test AUC: 0.9258
+
+Epoch 3956: New best validation AUC: 0.9263
+Epoch: 3960, Loss: 0.4859, Val AUC: 0.9256, Test AUC: 0.9257
+
+Epoch 3968: New best validation AUC: 0.9263
+
+Epoch 3970: New best validation AUC: 0.9263
+Epoch: 3970, Loss: 0.4859, Val AUC: 0.9263, Test AUC: 0.9261
+
+Epoch 3972: New best validation AUC: 0.9263
+Epoch: 3980, Loss: 0.4860, Val AUC: 0.9261, Test AUC: 0.9261
+
+Epoch 3987: New best validation AUC: 0.9263
+Epoch: 3990, Loss: 0.4856, Val AUC: 0.9261, Test AUC: 0.9261
+Epoch: 4000, Loss: 0.4856, Val AUC: 0.9261, Test AUC: 0.9261
+
+Epoch 4005: New best validation AUC: 0.9263
+Epoch: 4010, Loss: 0.4860, Val AUC: 0.9254, Test AUC: 0.9255
+Epoch: 4020, Loss: 0.4849, Val AUC: 0.9263, Test AUC: 0.9263
+
+Epoch 4022: New best validation AUC: 0.9264
+Epoch: 4030, Loss: 0.4862, Val AUC: 0.9263, Test AUC: 0.9262
+Epoch: 4040, Loss: 0.4853, Val AUC: 0.9258, Test AUC: 0.9258
+Epoch: 4050, Loss: 0.4853, Val AUC: 0.9263, Test AUC: 0.9263
+
+Epoch 4056: New best validation AUC: 0.9264
+Epoch: 4060, Loss: 0.4859, Val AUC: 0.9264, Test AUC: 0.9263
+Epoch: 4070, Loss: 0.4859, Val AUC: 0.9257, Test AUC: 0.9257
+
+Epoch 4071: New best validation AUC: 0.9264
+
+Epoch 4076: New best validation AUC: 0.9264
+Epoch: 4080, Loss: 0.4867, Val AUC: 0.9261, Test AUC: 0.9258
+Epoch: 4090, Loss: 0.4863, Val AUC: 0.9261, Test AUC: 0.9261
+Epoch: 4100, Loss: 0.4848, Val AUC: 0.9260, Test AUC: 0.9260
+
+Epoch 4109: New best validation AUC: 0.9264
+Epoch: 4110, Loss: 0.4856, Val AUC: 0.9258, Test AUC: 0.9258
+
+Epoch 4111: New best validation AUC: 0.9264
+
+Epoch 4113: New best validation AUC: 0.9264
+
+Epoch 4116: New best validation AUC: 0.9264
+Epoch: 4120, Loss: 0.4878, Val AUC: 0.9257, Test AUC: 0.9254
+Epoch: 4130, Loss: 0.4855, Val AUC: 0.9259, Test AUC: 0.9259
+Epoch: 4140, Loss: 0.4852, Val AUC: 0.9261, Test AUC: 0.9261
+
+Epoch 4145: New best validation AUC: 0.9264
+Epoch: 4150, Loss: 0.4866, Val AUC: 0.9262, Test AUC: 0.9260
+
+Epoch 4157: New best validation AUC: 0.9265
+Epoch: 4160, Loss: 0.4856, Val AUC: 0.9261, Test AUC: 0.9262
+
+Epoch 4162: New best validation AUC: 0.9265
+Epoch: 4170, Loss: 0.4852, Val AUC: 0.9259, Test AUC: 0.9259
+
+Epoch 4175: New best validation AUC: 0.9265
+Epoch: 4180, Loss: 0.4870, Val AUC: 0.9261, Test AUC: 0.9258
+
+Epoch 4185: New best validation AUC: 0.9265
+
+Epoch 4187: New best validation AUC: 0.9265
+Epoch: 4190, Loss: 0.4861, Val AUC: 0.9264, Test AUC: 0.9264
+
+Epoch 4197: New best validation AUC: 0.9265
+Epoch: 4200, Loss: 0.4859, Val AUC: 0.9260, Test AUC: 0.9261
+Epoch: 4210, Loss: 0.4857, Val AUC: 0.9261, Test AUC: 0.9262
+
+Epoch 4218: New best validation AUC: 0.9265
+Epoch: 4220, Loss: 0.4855, Val AUC: 0.9265, Test AUC: 0.9264
+
+Epoch 4225: New best validation AUC: 0.9265
+
+Epoch 4227: New best validation AUC: 0.9265
+Epoch: 4230, Loss: 0.4855, Val AUC: 0.9263, Test AUC: 0.9263
+
+Epoch 4236: New best validation AUC: 0.9266
+Epoch: 4240, Loss: 0.4859, Val AUC: 0.9265, Test AUC: 0.9265
+
+Epoch 4248: New best validation AUC: 0.9266
+
+Epoch 4250: New best validation AUC: 0.9266
+Epoch: 4250, Loss: 0.4859, Val AUC: 0.9266, Test AUC: 0.9265
+
+Epoch 4259: New best validation AUC: 0.9266
+Epoch: 4260, Loss: 0.4852, Val AUC: 0.9263, Test AUC: 0.9263
+Epoch: 4270, Loss: 0.4854, Val AUC: 0.9260, Test AUC: 0.9261
+Epoch: 4280, Loss: 0.4848, Val AUC: 0.9265, Test AUC: 0.9264
+Epoch: 4290, Loss: 0.4855, Val AUC: 0.9260, Test AUC: 0.9261
+
+Epoch 4294: New best validation AUC: 0.9266
+
+Epoch 4296: New best validation AUC: 0.9266
+Epoch: 4300, Loss: 0.4846, Val AUC: 0.9264, Test AUC: 0.9264
+Epoch: 4310, Loss: 0.4857, Val AUC: 0.9266, Test AUC: 0.9265
+
+Epoch 4315: New best validation AUC: 0.9266
+
+Epoch 4319: New best validation AUC: 0.9267
+Epoch: 4320, Loss: 0.4857, Val AUC: 0.9264, Test AUC: 0.9264
+
+Epoch 4322: New best validation AUC: 0.9267
+Epoch: 4330, Loss: 0.4850, Val AUC: 0.9253, Test AUC: 0.9254
+Epoch: 4340, Loss: 0.4858, Val AUC: 0.9266, Test AUC: 0.9265
+Epoch: 4350, Loss: 0.4856, Val AUC: 0.9266, Test AUC: 0.9266
+
+Epoch 4354: New best validation AUC: 0.9267
+
+Epoch 4359: New best validation AUC: 0.9267
+Epoch: 4360, Loss: 0.4860, Val AUC: 0.9260, Test AUC: 0.9261
+Epoch: 4370, Loss: 0.4859, Val AUC: 0.9267, Test AUC: 0.9266
+
+Epoch 4379: New best validation AUC: 0.9267
+Epoch: 4380, Loss: 0.4855, Val AUC: 0.9266, Test AUC: 0.9266
+
+Epoch 4384: New best validation AUC: 0.9267
+
+Epoch 4386: New best validation AUC: 0.9267
+Epoch: 4390, Loss: 0.4858, Val AUC: 0.9263, Test AUC: 0.9263
+
+Epoch 4391: New best validation AUC: 0.9267
+Epoch: 4400, Loss: 0.4859, Val AUC: 0.9266, Test AUC: 0.9266
+
+Epoch 4402: New best validation AUC: 0.9267
+
+Epoch 4406: New best validation AUC: 0.9268
+Epoch: 4410, Loss: 0.4861, Val AUC: 0.9265, Test AUC: 0.9265
+Epoch: 4420, Loss: 0.4854, Val AUC: 0.9267, Test AUC: 0.9266
+Epoch: 4430, Loss: 0.4868, Val AUC: 0.9252, Test AUC: 0.9253
+Epoch: 4440, Loss: 0.4852, Val AUC: 0.9266, Test AUC: 0.9266
+
+Epoch 4446: New best validation AUC: 0.9268
+Epoch: 4450, Loss: 0.4862, Val AUC: 0.9267, Test AUC: 0.9267
+
+Epoch 4457: New best validation AUC: 0.9268
+Epoch: 4460, Loss: 0.4854, Val AUC: 0.9267, Test AUC: 0.9266
+
+Epoch 4464: New best validation AUC: 0.9268
+
+Epoch 4468: New best validation AUC: 0.9268
+Epoch: 4470, Loss: 0.4850, Val AUC: 0.9268, Test AUC: 0.9267
+
+Epoch 4473: New best validation AUC: 0.9268
+Epoch: 4480, Loss: 0.4866, Val AUC: 0.9268, Test AUC: 0.9268
+
+Epoch 4484: New best validation AUC: 0.9268
+Epoch: 4490, Loss: 0.4856, Val AUC: 0.9267, Test AUC: 0.9266
+
+Epoch 4500: New best validation AUC: 0.9269
+Epoch: 4500, Loss: 0.4850, Val AUC: 0.9269, Test AUC: 0.9268
+Epoch: 4510, Loss: 0.4849, Val AUC: 0.9261, Test AUC: 0.9262
+Epoch: 4520, Loss: 0.4857, Val AUC: 0.9269, Test AUC: 0.9268
+
+Epoch 4527: New best validation AUC: 0.9269
+Epoch: 4530, Loss: 0.4854, Val AUC: 0.9260, Test AUC: 0.9261
+Epoch: 4540, Loss: 0.4855, Val AUC: 0.9269, Test AUC: 0.9268
+
+Epoch 4544: New best validation AUC: 0.9269
+
+Epoch 4546: New best validation AUC: 0.9269
+
+Epoch 4548: New best validation AUC: 0.9269
+Epoch: 4550, Loss: 0.4855, Val AUC: 0.9269, Test AUC: 0.9268
+
+Epoch 4554: New best validation AUC: 0.9270
+Epoch: 4560, Loss: 0.4856, Val AUC: 0.9263, Test AUC: 0.9264
+
+Epoch 4565: New best validation AUC: 0.9270
+Epoch: 4570, Loss: 0.4850, Val AUC: 0.9269, Test AUC: 0.9268
+
+Epoch 4572: New best validation AUC: 0.9270
+Epoch: 4580, Loss: 0.4855, Val AUC: 0.9269, Test AUC: 0.9269
+
+Epoch 4581: New best validation AUC: 0.9270
+Epoch: 4590, Loss: 0.4854, Val AUC: 0.9267, Test AUC: 0.9267
+
+Epoch 4592: New best validation AUC: 0.9270
+Epoch: 4600, Loss: 0.4859, Val AUC: 0.9269, Test AUC: 0.9269
+
+Epoch 4606: New best validation AUC: 0.9270
+
+Epoch 4610: New best validation AUC: 0.9270
+Epoch: 4610, Loss: 0.4851, Val AUC: 0.9270, Test AUC: 0.9269
+Epoch: 4620, Loss: 0.4849, Val AUC: 0.9269, Test AUC: 0.9267
+
+Epoch 4627: New best validation AUC: 0.9270
+Epoch: 4630, Loss: 0.4859, Val AUC: 0.9258, Test AUC: 0.9259
+
+Epoch 4636: New best validation AUC: 0.9270
+
+Epoch 4640: New best validation AUC: 0.9270
+Epoch: 4640, Loss: 0.4853, Val AUC: 0.9270, Test AUC: 0.9269
+
+Epoch 4643: New best validation AUC: 0.9270
+Epoch: 4650, Loss: 0.4860, Val AUC: 0.9262, Test AUC: 0.9262
+
+Epoch 4658: New best validation AUC: 0.9271
+Epoch: 4660, Loss: 0.4859, Val AUC: 0.9271, Test AUC: 0.9269
+Epoch: 4670, Loss: 0.4855, Val AUC: 0.9263, Test AUC: 0.9263
+
+Epoch 4674: New best validation AUC: 0.9271
+Epoch: 4680, Loss: 0.4864, Val AUC: 0.9270, Test AUC: 0.9268
+
+Epoch 4685: New best validation AUC: 0.9271
+Epoch: 4690, Loss: 0.4870, Val AUC: 0.9259, Test AUC: 0.9259
+Epoch: 4700, Loss: 0.4850, Val AUC: 0.9268, Test AUC: 0.9268
+
+Epoch 4706: New best validation AUC: 0.9271
+Epoch: 4710, Loss: 0.4867, Val AUC: 0.9270, Test AUC: 0.9268
+
+Epoch 4717: New best validation AUC: 0.9271
+Epoch: 4720, Loss: 0.4847, Val AUC: 0.9271, Test AUC: 0.9269
+
+Epoch 4722: New best validation AUC: 0.9271
+Epoch: 4730, Loss: 0.4858, Val AUC: 0.9267, Test AUC: 0.9267
+Epoch: 4740, Loss: 0.4846, Val AUC: 0.9270, Test AUC: 0.9270
+
+Epoch 4744: New best validation AUC: 0.9272
+Epoch: 4750, Loss: 0.4850, Val AUC: 0.9269, Test AUC: 0.9269
+
+Epoch 4751: New best validation AUC: 0.9272
+
+Epoch 4755: New best validation AUC: 0.9272
+Epoch: 4760, Loss: 0.4848, Val AUC: 0.9264, Test AUC: 0.9264
+Epoch: 4770, Loss: 0.4854, Val AUC: 0.9271, Test AUC: 0.9270
+Epoch: 4780, Loss: 0.4847, Val AUC: 0.9271, Test AUC: 0.9270
+Epoch: 4790, Loss: 0.4851, Val AUC: 0.9268, Test AUC: 0.9267
+
+Epoch 4798: New best validation AUC: 0.9272
+Epoch: 4800, Loss: 0.4853, Val AUC: 0.9272, Test AUC: 0.9271
+Epoch: 4810, Loss: 0.4856, Val AUC: 0.9266, Test AUC: 0.9266
+Epoch: 4820, Loss: 0.4851, Val AUC: 0.9272, Test AUC: 0.9270
+
+Epoch 4822: New best validation AUC: 0.9272
+
+Epoch 4828: New best validation AUC: 0.9273
+Epoch: 4830, Loss: 0.4847, Val AUC: 0.9272, Test AUC: 0.9271
+
+Epoch 4832: New best validation AUC: 0.9273
+
+Epoch 4836: New best validation AUC: 0.9273
+Epoch: 4840, Loss: 0.4861, Val AUC: 0.9273, Test AUC: 0.9271
+Epoch: 4850, Loss: 0.4854, Val AUC: 0.9273, Test AUC: 0.9271
+Epoch: 4860, Loss: 0.4847, Val AUC: 0.9268, Test AUC: 0.9268
+
+Epoch 4861: New best validation AUC: 0.9273
+Epoch: 4870, Loss: 0.4846, Val AUC: 0.9272, Test AUC: 0.9271
+
+Epoch 4874: New best validation AUC: 0.9273
+Epoch: 4880, Loss: 0.4867, Val AUC: 0.9269, Test AUC: 0.9266
+
+Epoch 4884: New best validation AUC: 0.9274
+Epoch: 4890, Loss: 0.4851, Val AUC: 0.9269, Test AUC: 0.9268
+Epoch: 4900, Loss: 0.4857, Val AUC: 0.9269, Test AUC: 0.9269
+Epoch: 4910, Loss: 0.4848, Val AUC: 0.9272, Test AUC: 0.9271
+Epoch: 4920, Loss: 0.4855, Val AUC: 0.9267, Test AUC: 0.9267
+Epoch: 4930, Loss: 0.4851, Val AUC: 0.9273, Test AUC: 0.9272
+
+Epoch 4939: New best validation AUC: 0.9274
+Epoch: 4940, Loss: 0.4859, Val AUC: 0.9269, Test AUC: 0.9268
+Epoch: 4950, Loss: 0.4852, Val AUC: 0.9273, Test AUC: 0.9272
+
+Epoch 4954: New best validation AUC: 0.9274
+
+Epoch 4960: New best validation AUC: 0.9274
+Epoch: 4960, Loss: 0.4857, Val AUC: 0.9274, Test AUC: 0.9272
+
+Epoch 4963: New best validation AUC: 0.9274
+Epoch: 4970, Loss: 0.4855, Val AUC: 0.9269, Test AUC: 0.9269
+
+Epoch 4980: New best validation AUC: 0.9274
+Epoch: 4980, Loss: 0.4848, Val AUC: 0.9274, Test AUC: 0.9273
+
+Epoch 4987: New best validation AUC: 0.9275
+Epoch: 4990, Loss: 0.4850, Val AUC: 0.9274, Test AUC: 0.9273
+
+Epoch 4994: New best validation AUC: 0.9275
+Epoch: 5000, Loss: 0.4846, Val AUC: 0.9262, Test AUC: 0.9262
+--------------------
+Training finished.
+Best Validation AUC: 0.9275
+Final Test AUC (corresponding to best validation): 0.9273
+TensorBoard writer closed. Logs saved in runs/Apr28_03-18-39_udc-aj36-36
+
+Final Test Scores (first 10): tensor([0.8723, 0.6924, 0.8769, 0.8496, 0.8276, 0.6913, 0.8686, 0.9787, 0.6924,
+        0.8815], device='cuda:0')
+Corresponding True Labels (first 10): tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.], device='cuda:0')

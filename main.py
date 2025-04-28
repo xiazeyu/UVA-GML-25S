@@ -1,5 +1,5 @@
 import os.path as osp
-
+import argparse # Import argparse
 import torch
 from sklearn.metrics import roc_auc_score, average_precision_score
 from tqdm.auto import tqdm  # Import tqdm
@@ -11,6 +11,17 @@ from torch_geometric.datasets import Planetoid # Although imported, not used dir
 from torch_geometric.nn import GCNConv
 from torch_geometric.utils import negative_sampling
 from torch_geometric.transforms import RandomLinkSplit, ToUndirected, NormalizeFeatures
+
+# --- Argument Parsing ---
+# Create an argument parser
+parser = argparse.ArgumentParser(description='GCN Link Prediction Training Script')
+# Add an argument for the data path, making it required
+parser.add_argument('--data_path', type=str, required=True,
+                    help='Path to the preprocessed graph data file (.pt)')
+# Parse the command-line arguments
+args = parser.parse_args()
+# Get the data path from the parsed arguments
+data_path = args.data_path
 
 # --- Device Setup ---
 if torch.cuda.is_available():
@@ -29,10 +40,20 @@ writer = SummaryWriter()
 print(f"TensorBoard logs will be saved in: {writer.log_dir}")
 
 # --- Data Loading and Preprocessing ---
-data_path = 'dataset/processed_graph_data.pt'
-print(f"Loading preprocessed data from {data_path}")
-writer.add_text('Data Info', f"Loading data from {data_path}")
-dataset = torch.load(data_path)
+# data_path = 'dataset/processed_graph_data.pt' # Replaced by command-line argument
+print(f"Loading preprocessed data from specified path: {data_path}")
+writer.add_text('Data Info', f"Loading data from {data_path}") # Log the actual path used
+# Load the dataset using the provided path
+try:
+    dataset = torch.load(data_path)
+except FileNotFoundError:
+    print(f"Error: Data file not found at {data_path}")
+    print("Please provide a valid path using the --data_path argument.")
+    exit() # Exit if the file doesn't exist
+except Exception as e:
+    print(f"Error loading data from {data_path}: {e}")
+    exit()
+
 
 # Apply necessary transforms
 dataset = ToUndirected()(dataset)
