@@ -22,9 +22,16 @@ else:
     device = torch.device('cpu')
 print(f"Using device: {device}")
 
+# --- TensorBoard Setup ---
+# Create a SummaryWriter instance. Logs will be saved in the 'runs/link_prediction_gcn' directory.
+# You can change the directory name as needed.
+writer = SummaryWriter()
+print(f"TensorBoard logs will be saved in: {writer.log_dir}")
+
 # --- Data Loading and Preprocessing ---
 data_path = 'dataset/processed_graph_data.pt'
 print(f"Loading preprocessed data from {data_path}")
+writer.add_text('Data Info', f"Loading data from {data_path}")
 dataset = torch.load(data_path)
 
 # Apply necessary transforms
@@ -78,12 +85,6 @@ class Net(torch.nn.Module):
 model = Net(dataset.num_features, 256, 128).to(device)
 optimizer = torch.optim.Adam(params=model.parameters(), lr=0.01)
 criterion = torch.nn.BCEWithLogitsLoss() # Suitable for binary classification with logits
-
-# --- TensorBoard Setup ---
-# Create a SummaryWriter instance. Logs will be saved in the 'runs/link_prediction_gcn' directory.
-# You can change the directory name as needed.
-writer = SummaryWriter()
-print(f"TensorBoard logs will be saved in: {writer.log_dir}")
 
 # --- Training Function ---
 def train(epoch):
@@ -145,7 +146,7 @@ def test(data, epoch, split_name):
 
 # --- Training Loop ---
 best_val_auc = final_test_auc = 0
-num_epochs = 500 # Define number of epochs
+num_epochs = 1000 # Define number of epochs
 
 # Wrap the range with tqdm for a progress bar
 print("\n--- Starting Training ---")

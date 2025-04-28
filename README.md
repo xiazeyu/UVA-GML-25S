@@ -9,3 +9,5 @@
 - 7. run `python process_nodedata.py`
 - 8. run `python process_graph.py` (can also try `python process_graph_no_review.py` or `python process_graph_no_embed.py`)
 - 9. run `python main.py`
+
+Running logs will be stored in `logs/`

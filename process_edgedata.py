@@ -145,6 +145,9 @@ try:
         import pprint
         pprint.pprint(my_graph[example_asin_2])
 
+    torch.save(my_graph, 'dataset/metadata_graph.pt')
+    print("\nGraph saved to 'dataset/metadata_graph.pt'.")
+
 
 except FileNotFoundError:
     print(f"\nError: The file was not found at '{file_path}'. Please check the path.")
