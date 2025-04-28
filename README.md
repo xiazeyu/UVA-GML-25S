@@ -4,3 +4,7 @@
 - run `python process_reviews.py Digital_Music`
 - run `python process_reviews.py Video_Games`
 - run `python process_reviews.py Pet_Supplies`
+- run `python process_edgedata.py`
+- run `python process_nodedata.py`
+- run `python process_graph.py`
+
